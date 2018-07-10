@@ -8,14 +8,14 @@ collection of tooling for working with the ZTF alert stream
 | Field | Type | Contents |
 |:--------|:-------|:--------|
 | `objectId` |  long | unique identifier for the object |
-| `meanRA` | double | mean of the RA values for all the g, r, and i-band (J2000) |
-| `meanDec` | double | mean of the Dec values for all the g, r, and i-band (J2000) |
+| `meanRA` | double | mean of the RA values for all the g, r, and i-band; J2000 [deg] |
+| `meanDec` | double | mean of the Dec values for all the g, r, and i-band; J2000 [deg] |
 | `gNobs` | int | number of observations for the g-band data  |
 | `rNobs` | int | number of observations for the r-band data |
 | `iNobs` | int | number of observations for the i-band data |
-| `gMeanAB` | float | weighted mean value of the g-band magnitudes (AB mag) |
-| `rMeanAB` | float | weighted mean value of the r-band magnitudes (AB mag) |
-| `iMeanAB` | float | weighted mean value of the i-band magnitudes (AB mag) |
+| `gMeanAB` | float | weighted mean value of the g-band magnitudes; AB [mag] |
+| `rMeanAB` | float | weighted mean value of the r-band magnitudes; AB [mag] |
+| `iMeanAB` | float | weighted mean value of the i-band magnitudes; AB [mag] |
 | `gStdAB` | float | sample standard-deviation of the g-band magnitudes  |
 | `rStdAB` | float | sample standard-deviation of the r-band magnitudes |
 | `iStdAB` | float | sample standard-deviation of the i-band magnitudes |
