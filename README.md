@@ -7,7 +7,7 @@ collection of tooling for working with the ZTF alert stream
 
 | Field | Type | Contents |
 |:--------|:-------|:--------|
-| `objectId` |  varchar(20) | www |
+| `objectId` |  long | unique identifier for the object |
 | `meanRA` | double | www |
 | `meanDec` | double | eee |
 | `gNobs` | int | rrrr |
