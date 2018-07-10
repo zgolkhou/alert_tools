@@ -19,9 +19,9 @@ collection of tooling for working with the ZTF alert stream
 | `gStdAB` | float | sample standard-deviation of the g-band magnitudes  |
 | `rStdAB` | float | sample standard-deviation of the r-band magnitudes |
 | `iStdAB` | float | sample standard-deviation of the i-band magnitudes |
-| `gMeanJy` | double | weighted mean value of the g-band fluxes (Jy) |
-| `rMeanJy` | double | weighted mean value of the r-band fluxes (Jy) |
-| `iMeanJy` | double | weighted mean value of the i-band fluxes (Jy) |
+| `gMeanJy` | double | weighted mean value of the g-band fluxes [Jy] |
+| `rMeanJy` | double | weighted mean value of the r-band fluxes [Jy] |
+| `iMeanJy` | double | weighted mean value of the i-band fluxes [Jy] |
 | `gStdJy` | double | sample standard-deviation of the g-band fluxes |
 | `rStdJy` | double | sample standard-deviation of the r-band fluxes |
 | `iStdJy` | double | sample standard-deviation of the i-band fluxes |
