@@ -24,7 +24,7 @@ collection of tooling for working with the ZTF alert stream
 | `iMeanJy` | double | DOUBLE |
 | `gStdJy` | double | DOUBLE |
 | `rStdJy` | double | DOUBLE |
-| `iStdJy` | double  DOUBLE |
+| `iStdJy` | double |  DOUBLE |
 | `gRB` | float | FLOAT |
 | `rRB` | float | FLOAT |
 | `iRB` | float | FLOAT |
