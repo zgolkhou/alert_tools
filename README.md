@@ -3,7 +3,7 @@ collection of tooling for working with the ZTF alert stream
 
 
 
-### ztf.alert.candidate
+### Light curve features calculated in the summary table
 
 | Field | Type | Contents |
 |:--------|:-------|:--------|
