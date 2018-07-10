@@ -28,7 +28,7 @@ collection of tooling for working with the ZTF alert stream
 | `gRB` | float | mean value of the g-band real-bogus data |
 | `rRB` | float | mean value of the r-band real-bogus data |
 | `iRB` | float | mean value of the i-band real-bogus data |
-| `gClasstar` | float | mean value of the g-band Classtar data [Galaxy <-- 0 \le Classtar score \ge 1 --> Star] |
+| `gClasstar` | float | mean value of the g-band Classtar data [Galaxy <-- $0 \le$ Classtar score $\ge 1$ --> Star] |
 | `rClasstar` | float | FLOAT |
 | `iClasstar` | float |  FLOAT |
 | `Distnr` | float | FLOAT |
