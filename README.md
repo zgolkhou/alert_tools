@@ -8,11 +8,11 @@ collection of tooling for working with the ZTF alert stream
 | Field | Type | Contents |
 |:--------|:-------|:--------|
 | `objectId` |  long | unique identifier for the object |
-| `meanRA` | double | www |
-| `meanDec` | double | eee |
-| `gNobs` | int | rrrr |
-| `rNobs` | int | sss |
-| `iNobs` | int | ddd |
+| `meanRA` | double | mean of the RA values for all the g, r, and i-band (J2000) |
+| `meanDec` | double | mean of the Dec values for all the g, r, and i-band (J2000) |
+| `gNobs` | int | number of observations for the g-band data  |
+| `rNobs` | int | number of observations for the r-band data |
+| `iNobs` | int | number of observations for the i-band data |
 | `gMeanAB` | float |  FLOAT |
 | `rMeanAB` | float | FLOAT |
 | `iMeanAB` | float | FLOAT |
@@ -48,4 +48,4 @@ collection of tooling for working with the ZTF alert stream
 | `gMagps1` | float | FLOAT |
 | `rMagps1` | float | FLOAT |
 | `iMagps1` | float | FLOAT |
-| `Sgscoreps1` | float |  FLOAT|
+| `Sgscoreps1` | float |  FLOAT |
