@@ -48,4 +48,4 @@ collection of tooling for working with the ZTF alert stream
 | `gMagps1` | float | g-band PSF magnitude of closest source from PS1 catalog; if exists within 30 arcsec [mag] |
 | `rMagps1` | float | r-band PSF magnitude of closest source from PS1 catalog; if exists within 30 arcsec [mag] |
 | `iMagps1` | float | i-band PSF magnitude of closest source from PS1 catalog; if exists within 30 arcsec [mag] |
-| `Sgscoreps1` | float |  Star/Galaxy score of closest source from PS1 catalog [(Galaxy) <-- 0 < Classtar score < 1 --> (Star)] |
+| `Sgscoreps1` | float |  Star/Galaxy score of closest source from PS1 catalog [(Galaxy) <-- 0 < Sgscore < 1 --> (Star)] |
