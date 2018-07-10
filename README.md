@@ -29,15 +29,15 @@ collection of tooling for working with the ZTF alert stream
 | `rRB` | float | mean value of the r-band real-bogus data |
 | `iRB` | float | mean value of the i-band real-bogus data |
 | `gClasstar` | float | mean value of the g-band Classtar data [(Galaxy) <-- 0 < Classtar score < 1 --> (Star)] |
-| `rClasstar` | float | FLOAT |
-| `iClasstar` | float |  FLOAT |
-| `Distnr` | float | FLOAT |
-| `gMagnr` | float | FLOAT |
-| `gDmagnr` | float | FLOAT |
-| `rMagnr` | float | FLOAT |
-| `rDmagnr` | float | FLOAT |
-| `iMagnr` | float | FLOAT |
-| `iDmagnr` | float | FLOAT |
+| `rClasstar` | float | mean value of the r-band Classtar data [(Galaxy) <-- 0 < Classtar score < 1 --> (Star)] |
+| `iClasstar` | float | mean value of the i-band Classtar data [(Galaxy) <-- 0 < Classtar score < 1 --> (Star)] |
+| `Distnr` | float | distance to nearest source in reference image PSF-catalog within 30 arcsec [pixels] |
+| `gMagnr` | float | g-band magnitude of nearest source in reference image PSF-catalog within 30 arcsec [mag] |
+| `gDmagnr` | float | 1-sigma uncertainty in gMagnr within 30 arcsec [mag] |
+| `rMagnr` | float | r-band magnitude of nearest source in reference image PSF-catalog within 30 arcsec [mag] |
+| `rDmagnr` | float | 1-sigma uncertainty in rMagnr within 30 arcsec [mag] |
+| `iMagnr` | float | i-band magnitude of nearest source in reference image PSF-catalog within 30 arcsec [mag] |
+| `iDmagnr` | float |  1-sigma uncertainty in iMagnr within 30 arcsec [mag] |
 | `gChinr` | float | FLOAT |
 | `rChinr` | float | FLOAT |
 | `iChinr` | float | FLOAT |
