@@ -13,12 +13,12 @@ collection of tooling for working with the ZTF alert stream
 | `gNobs` | int | number of observations for the g-band data  |
 | `rNobs` | int | number of observations for the r-band data |
 | `iNobs` | int | number of observations for the i-band data |
-| `gMeanAB` | float |  FLOAT |
-| `rMeanAB` | float | FLOAT |
-| `iMeanAB` | float | FLOAT |
-| `gStdAB` | float | FLOAT |
-| `rStdAB` | float | FLOAT |
-| `iStdAB` | float | FLOAT |
+| `gMeanAB` | float | weighted mean value of the g-band magnitudes (mag) |
+| `rMeanAB` | float | weighted mean value of the r-band magnitudes (mag) |
+| `iMeanAB` | float | weighted mean value of the i-band magnitudes (mag) |
+| `gStdAB` | float | sample standard-deviation of the g-band magnitudes  |
+| `rStdAB` | float | sample standard-deviation of the r-band magnitudes |
+| `iStdAB` | float | sample standard-deviation of the i-band magnitudes |
 | `gMeanJy` | double | DOUBLE |
 | `rMeanJy` | double | OUBLE |
 | `iMeanJy` | double | DOUBLE |
