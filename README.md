@@ -13,6 +13,14 @@ collection of tooling for working with the ZTF alert stream
 
 ---
 
+## Task Lists
+
+- [X] Create features
+- [ ] Add all _Richards_ attributes
+- [ ] Optimize the code
+
+---
+
 ### Light curve features calculated in the `summary` table
 
 | Field | Type | Contents |
