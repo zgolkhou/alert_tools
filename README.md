@@ -1,7 +1,13 @@
 # alert_tools
 collection of tooling for working with the ZTF alert stream
 
+---
 
+# Features for a Source
+
+- We define a `source` as an astrophysical object with:
+  - an associated light curve 
+  - attributes of the light curve summarized in the following summary table
 
 ### Light curve features calculated in the `summary` table
 
