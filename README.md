@@ -8,6 +8,10 @@ collection of tooling for working with the ZTF alert stream
 - We define a `source` as an astrophysical object with:
   - an associated light curve 
   - attributes of the light curve summarized in the following summary table
+- `Features` are metrics that describe the characteristic and context of a source.
+- Many features are needed per source to discern which of many science classes, the source belongs to.
+
+---
 
 ### Light curve features calculated in the `summary` table
 
