@@ -28,6 +28,7 @@ collection of tooling for working with the ZTF alert stream
 | `objectId` |  long | unique identifier for the object |
 | `meanRA` | double | mean of the RA values for all the g, r, and i-band; J2000 [deg] |
 | `meanDec` | double | mean of the Dec values for all the g, r, and i-band; J2000 [deg] |
+| `nobs` | int | number of total observations |
 | `gNobs` | int | number of observations for the g-band data  |
 | `rNobs` | int | number of observations for the r-band data |
 | `iNobs` | int | number of observations for the i-band data |
