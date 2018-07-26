@@ -25,3 +25,5 @@ Column Name | Data Type | Description |
 | rcid | UInt8 | Readout-channel ID (0-63) |
 | relphotsatmag | Float32 | Saturation magnitude from relative photometry |
 | relphotsyserr | Float32 | Systematic uncertainty in relphot zero-point |
+| relphotzp | Float32 | Relative photometry zero-point (delta-mag) |
+| relphotzperr | Float32 | Uncertainty in relative photometry zero-point. If NaN, the relphotzp value is set to 0.0. |
