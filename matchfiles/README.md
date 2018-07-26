@@ -110,7 +110,7 @@ Column Name | Data Type | Description |
 | nmedianbufferrange | UInt16Col | Number of points more than 20% ofthe lightcurve amplitude from theweighted mean magnitude | |nobs | UInt16Col | Total number of epochal detections(observation epochs) in the lightcurvefor this object | 
 | npairposslope | UInt16Col | Number of positive slopes between allconsecutive pairwise lightcurve points(mag[i+1] brighter than mag[i]) | 
 | percentiles | Float32Col, | [mag] [5th, 10th, 17.5th, 25th, 32.5th,shape=(12,)40th, 60th, 67.5th, 75th, 82.5th, 90th, 95th] percentiles in magnitude over nobs |
-| periodsearch | Float32Col, | Periodogram peaks in [day],shape=(5,2)periodogram value |
+|periodsearch | Float32Col, | Periodogram peaks in [day],shape=(5,2)periodogram value |
 | probnonqso | Float32Col | Probability of variability fit to non-quasar-like source |
 |probqso| Float32Col | Probability of variability fit to quasar-like source | 
 | ra | Float64Col | Right Ascension (deg) |
