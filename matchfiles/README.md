@@ -115,5 +115,5 @@ Column Name | Data Type | Description |
 |probqso| Float32Col | Probability of variability fit to quasar-like source | 
 | ra | Float64Col | Right Ascension (deg) |
 | refchi | Float32Col | Chi-sq from reference catalog |
-| refmag | Float32Col | Magnitude from ref. | 
-| catalogrefmagerr | Float32Col | Uncertainty in refmagrefsharpFloat32ColSharpness from ref. catalog |
+| refmag | Float32Col | Magnitude from ref. catalog |
+| refmagerr | Float32Col | Uncertainty in refmagrefsharpFloat32ColSharpness from ref. catalog |
