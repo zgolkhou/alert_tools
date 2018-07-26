@@ -160,3 +160,15 @@ Column Name | Data Type | Description |
 | y | Float64Col| sin(RA)*cos(Dec) | 
 | ypos | Float32Col | y-center in pixels | 
 | z | Float64Col | cos(RA) |
+
+---
+
+### TRANSIENTS TABLE
+
+Each row in the transients table corresponds to an Object that did not appear in the reference catalogthat seeded the matchfile. The columns are the same as for the sources table.
+
+---
+
+### TRANSIENTDATA TABLE
+
+The sourcedata table contains one row for each observation of an Object in the transients table. Thetime series photometry is stored here. The columns are the same as for the sourcedata table.
