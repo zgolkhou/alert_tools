@@ -1,7 +1,7 @@
 ### EXPOSURES TABLE
 
-The exposures table contains one row per exposure.
-The expid column is indexed with default pytables values.
+- The exposures table contains one row per exposure.
+- The expid column is indexed with default pytables values.
 
 Column Name | Data Type | Description |
 |:--------|:-------|:--------|
