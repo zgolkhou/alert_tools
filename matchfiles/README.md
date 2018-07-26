@@ -90,12 +90,12 @@ Column Name | Data Type | Description |
 | nabovemeanbystd | UInt16Col, | Number of lightcurve points that areshape=(3,)[1, 3, 5] standard deviations above themean magnitude over nobs |
 | nbelowmeanbystd | UInt16Col, | Number of lightcurve points that areshape=(3,)[1, 3, 5] standard deviations below themean magnitude over |
 | nobsnbestobs | UInt16Col | Number of "clean" epochal detectionsused to compute relative photometriccorrections across all observationepochs (= a subset of ngoodobs) |
-| nconsecabovemeanbystd | UInt16Col, | Number of consecutive lightcurveshape=(3,)points that are [1, 3, 5] standarddeviations above the mean | 
-| magnitudenconsecbelowmeanbystd | UInt16Col, | Number of consecutive lightcurveshape=(3,)points that are [1, 3, 5] standarddeviations below the mean |
-| magnitudenconsecfrommeanbystd | UInt16Col, | Total number of consecutiveshape=(3,)lightcurve points that are [1, 3, 5]standard deviations either above orbelow the mean |
-| magnitudengoodobs | UInt16Col | The number of epochal detections thatwere not flagged, masked, norassociated with bad pixels during thesource extraction |
-| processnmedianbufferrange | UInt16Col | Number of points more than 20% ofthe lightcurve amplitude from theweighted mean magnitudenobsUInt16ColTotal number of epochal detections(observation epochs) in the lightcurvefor this |
-| objectnpairposslope | UInt16Col | Number of positive slopes between allconsecutive pairwise lightcurve points(mag[i+1] brighter than mag[i]) |
+| nconsecabovemeanbystd | UInt16Col, | Number of consecutive lightcurveshape=(3,)points that are [1, 3, 5] standarddeviations above the mean magnitude |
+| nconsecbelowmeanbystd | UInt16Col, | Number of consecutive lightcurveshape=(3,)points that are [1, 3, 5] standarddeviations below the mean magnitude | 
+| nconsecfrommeanbystd | UInt16Col, | Total number of consecutiveshape=(3,)lightcurve points that are [1, 3, 5]standard deviations either above orbelow the mean magnitude |
+| ngoodobs | UInt16Col | The number of epochal detections thatwere not flagged, masked, norassociated with bad pixels during thesource extraction |
+| processnmedianbufferrange | UInt16Col | Number of points more than 20% ofthe lightcurve amplitude from theweighted mean magnitudenobsUInt16ColTotal number of epochal detections(observation epochs) in the lightcurvefor this object |
+| npairposslope | UInt16Col | Number of positive slopes between allconsecutive pairwise lightcurve points(mag[i+1] brighter than mag[i]) |
 | percentiles | Float32Col, | [mag] [5th, 10th, 17.5th, 25th, 32.5th,shape=(12,)40th, 60th, 67.5th, 75th, 82.5th, 90th, 95th]percentiles in magnitude over | 
 | nobsperiodsearch | Float32Col, | Periodogram peaks in [day],shape=(5,2)periodogram valueprobnonqsoFloat32ColProbability of variability fit to non-quasar-like |
 | sourceprobqso | Float32Col | Probability of variability fit to quasar-like sourceraFloat64ColRight Ascension (deg) | 
