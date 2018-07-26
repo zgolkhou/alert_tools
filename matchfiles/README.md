@@ -1,3 +1,13 @@
+# TABLES ACCESSIBLE AT THE MATCH GROUP LEVEL
+Five tables are attached to the match group:
+- ### Exposures
+- ### Sources
+- ### Sourcedata
+- ### Transients
+- ###Transientdata
+
+---
+
 ### EXPOSURES TABLE
 
 - The exposures table contains one row per exposure.
