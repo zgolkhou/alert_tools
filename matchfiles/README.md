@@ -61,5 +61,21 @@ Column Name | Data Type | Description |
 | bestprobqso | Float32Col | Same as probqso, but using onlynbestobs epochal detections used tocompute relative photometry | 
 | bestskewness | Float32Col | Same as skewness, but using onlynbestobs epochal detections used tocompute relative photometry |
 | bestsmallkurtosis | Float32Col | Same as smallkurtosis, but using onlynbestobs epochal detections used to |
-
+| beststetsonj | Float32Col | Same as stetsonj, but using onlynbestobs epochal detections used tocompute relative photometry | | beststetsonk | Float32Col | Same as stetsonk, but using onlynbestobs epochal detections used tocompute relative photometry | 
+| bestvonneumannratio | Float32Col | Same as vonneumannratio, but usingonly nbestobs epochal detections usedto compute relative photometry | 
+| bestweightedmagrms | Float32Col | Same as weightedmagrms, but usingonly nbestobs epochal detections usedto compute relative photometry | 
+| bestweightedmeanmag | Float32Col | Same as weightedmeanmag, but usingonly nbestobs epochal detections usedto compute relative photometry | 
+| chisq | Float32 | ColChi-square metric using nobs detections |
+| con | Float32 | Colfraction of nobs where threeconsecutive observations are morethan 2x RMS from the medianmagnitude, plus 1 | 
+| dec | Float64 | ColDeclination (deg) |
+| lineartrend | Float32Col | [mag/day] Slope from linear fit to nobs detections |
+| magrms | Float32Col | [mag] Root Mean Squared deviation innobs magnitudes |
+| matchid | Int32Col | Index into the sourcedata table (forpulling out light curves) |
+| maxmag | Float32Col | [mag] Maximum magnitude over nobs detections | 
+| maxslope | Float32Col | [mag/day] Maximum pairwise slopeover all consecutive nobs detections |
+| meanmag | Float32Col | [mag] Mean magnitude over nobs detections |
+| medianabsdev | Float32Col | [mag] Median absolute deviation inmagnitudes over nobs detections | 
+| medianmag | Float32Col | [mag] Median magnitude over nobs detections |
+| minmag | Float32Col | [mag] Minimum magnitude over nobs detections |
+| nabovemeanbystd | UInt16Col, | Number of lightcurve points that areshape=(3,)[1, 3, 5] standard deviations above themean magnitude over nobs |
 
