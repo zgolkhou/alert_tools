@@ -128,3 +128,35 @@ Column Name | Data Type | Description |
 | x | Float64Col | cos(RA)*cos(Dec) | 
 | y | Float64Col | sin(RA)*cos(Dec) | 
 | z | Float64Col | cos(RA) |
+
+---
+
+### SOURCEDATA TABLE
+
+The sourcedata table contains one row for each observation of an Object in the sources table. Thetime series photometry is stored here.The matchid column is indexed fully so that the table may be sorted by this column. The programidcolumn is indexed with default values.
+
+Column Name | Data Type | Description |
+|:--------|:-------|:--------|
+| catflags | Int16Col | Catalog flags from PSF-fitting catalog |
+| chi | Float32Col | Chi-squared |
+| dec | Float64Col, | Declination (deg) |
+| expid | Int32Col | Exposure ID (corresponds to exposures table) | 
+| hjd | Float64Col| Heliocentric Julian Date (computed from mjd andthe mean ra and dec of the input catalog) |
+| mag | Float32Col | Magnitude calibrated with relative photometrymagerrFloat32ColUncertainty in calibrated magnitude |
+| matchid | Int32Col | Match ID corresponding to entries in sources |
+| tablemjd | Float64Col | Modified Julian date |
+|programid | UInt16Col | Program ID |
+| psfflux | Float32Col | Flux from PSF-fitting  |
+|psffluxerr | Float32Col | Uncertainty in flux | 
+| psfmag | Float32Col | Magnitude from PSF-fitting (“uncalibrated”) | 
+| psfmagerr | Float32Col | Uncertainty in PSF-fit magnitude |
+|ra | Float64Col | Right Ascension (deg) | 
+| relphotflags | Int16Col | Relative photometry flags | 
+| sharp | Float32Col | Sharpness of source |
+| sid | Int64Col | Source ID (sequential) | 
+| snr | Float32Col | Signal-to-noise ratio |
+| x| Float64Col | cos(RA)*cos(Dec) |
+| xpos | Float32Col | x-center in pixels | 
+| y | Float64Col| sin(RA)*cos(Dec) | 
+| ypos | Float32Col | y-center in pixels | 
+| z | Float64Col | cos(RA) |
