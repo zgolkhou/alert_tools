@@ -117,3 +117,14 @@ Column Name | Data Type | Description |
 | refchi | Float32Col | Chi-sq from reference catalog |
 | refmag | Float32Col | Magnitude from ref. catalog |
 | refmagerr | Float32Col | Uncertainty in refmagrefsharpFloat32ColSharpness from ref. catalog |
+| refsnr | Float32Col | SNR from reference catalogskewnessFloat32ColSkew (third moment) in lightcurvemagnitudes over nobs | 
+| smallkurtosis | Float32Col | Kurtosis (fourth moment) in lightcurvemagnitudes over nobs for smallsamples(http://www.xycoon.com/peakedness_ small_sample_test_1.htm) |
+| stetsonj | Float32Col | Stetson-J statistic for this filter only;measures degree of autocorrelation in magnitudes over nobs |
+| stetsonk | Float32Col | Stetson-K statistic; proportional to thekurtosis of the magnitude distribution over nobs | 
+| uncalibmeanmag | Float32Col | Mean of uncalibrated mags | 
+| vonneumannratio | Float32Col | The von Neumann Ratio statistic overnobs; measure of epoch-to-epoch variability |
+| weightedmagrms | Float32Col | [mag] Root Mean Square magnitudeover nobs using inverse-variance weighting. |
+| weightedmeanmag | Float32Col | [mag] Inverse-variance weighted meanmagnitude over nobs | 
+| x | Float64Col | cos(RA)*cos(Dec) | 
+| y | Float64Col | sin(RA)*cos(Dec) | 
+| z | Float64Col | cos(RA) |
