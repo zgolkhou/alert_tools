@@ -58,15 +58,15 @@ Column Name | Data Type | Description |
 | bestmedianabsdev | Float32Col | Same as medianabsdev, but using onlynbestobs epochal detections used tocompute relative photometry |
 | bestmedianmag | Float32Col | Same as medianmag, but using onlynbestobs epochal detections used tocompute relative photometry |
 | bestminmag | Float32Col | Same as minmag, but using onlynbestobs epochal detections used tocompute relative photometry |
-| bestnabovemeanbystd| UInt16Col, shape=(3,)| Same as nabovemeanbystd, but usingshape=(3,)only nbestobs epochal detections usedto compute relative photometry | 
-| bestnbelowmeanbystd | UInt16Col, | Same as nbelowmeanbystd, but usingshape=(3,)only nbestobs epochal detections usedto compute relative photometry | 
-| bestnconsecabovemeanbystdU | Int16Col, | Same as nconsecabovemeanbystd, butshape=(3,)using only nbestobs epochal detectionsused to compute relative photometry. |
-| bestnconsecbelowmeanbystd | UInt16Col, | Same as nconsecbelowmeanbystd, butshape=(3,)using only nbestobs epochal detectionsused to compute relative photometry |
-| bestnconsecfrommeanbystd | UInt16Col, | Same as nconsecfrommeanbystd, butshape=(3,)using only nbestobs epochal detectionsused to compute relative photometry |
+| bestnabovemeanbystd| UInt16Col, shape=(3,)| Same as nabovemeanbystd, but usingshape=(3,) only nbestobs epochal detections usedto compute relative photometry | 
+| bestnbelowmeanbystd | UInt16Col, shape=(3,) | Same as nbelowmeanbystd, but usingshape=(3,) only nbestobs epochal detections usedto compute relative photometry | 
+| bestnconsecabovemeanbystdU | Int16Col, shape=(3,) | Same as nconsecabovemeanbystd, butshape=(3,) using only nbestobs epochal detectionsused to compute relative photometry. |
+| bestnconsecbelowmeanbystd | UInt16Col, shape=(3,) | Same as nconsecbelowmeanbystd, butshape=(3,) using only nbestobs epochal detectionsused to compute relative photometry |
+| bestnconsecfrommeanbystd | UInt16Col, shape=(3,) | Same as nconsecfrommeanbystd, butshape=(3,) using only nbestobs epochal detectionsused to compute relative photometry |
 | bestnmedianbufferrange | UInt16Col | Same as nmedianbufferrange, butusing only nbestobs epochal detectionsused to compute relative photometry | 
 | bestnpairposslope | UInt16Col | Same as npairposslope, but using onlynbestobs epochal detections used tocompute relative photometry | 
-| bestpercentiles | Float32Col, | Same as percentiles, but using onlyshape=(12,)nbestobs epochal detections used tocompute relative photometry | 
-| bestperiodsearch | Float32Col, | Same as periodsearch but using onlyshape=(5,2)nbestobs epochal detections used tocompute relative photometry | 
+| bestpercentiles | Float32Col, shape=(12,) | Same as percentiles, but using onlyshape=(12,) nbestobs epochal detections used tocompute relative photometry | 
+| bestperiodsearch | Float32Col, shape=(5,2) | Same as periodsearch but using onlyshape=(5,2) nbestobs epochal detections used tocompute relative photometry | 
 | bestprobnonqso | Float32Col | Same as probnonqso, but using onlynbestobs epochal detections used tocompute relative photometry | 
 | bestprobqso | Float32Col | Same as probqso, but using onlynbestobs epochal detections used tocompute relative photometry | 
 | bestskewness | Float32Col | Same as skewness, but using onlynbestobs epochal detections used tocompute relative photometry |
@@ -90,27 +90,27 @@ Column Name | Data Type | Description |
 | nabovemeanbystd | UInt16Col, | Number of lightcurve points that areshape=(3,)[1, 3, 5] standard deviations above themean magnitude over nobs |
 | nbelowmeanbystd | UInt16Col, | Number of lightcurve points that areshape=(3,)[1, 3, 5] standard deviations below themean magnitude over |
 | nobsnbestobs | UInt16Col | Number of "clean" epochal detectionsused to compute relative photometriccorrections across all observationepochs (= a subset of ngoodobs) |
-| nconsecabovemeanbystd | UInt16Col, | Number of consecutive lightcurveshape=(3,)points that are [1, 3, 5] standarddeviations above the mean magnitude |
-| nconsecbelowmeanbystd | UInt16Col, | Number of consecutive lightcurveshape=(3,)points that are [1, 3, 5] standarddeviations below the mean magnitude | 
-| nconsecfrommeanbystd | UInt16Col, | Total number of consecutiveshape=(3,)lightcurve points that are [1, 3, 5]standard deviations either above orbelow the mean magnitude |
+| nconsecabovemeanbystd | UInt16Col, shape=(3,) | Number of consecutive lightcurveshape=(3,) points that are [1, 3, 5] standarddeviations above the mean magnitude |
+| nconsecbelowmeanbystd | UInt16Col, shape=(3,) | Number of consecutive lightcurveshape=(3,) points that are [1, 3, 5] standarddeviations below the mean magnitude | 
+| nconsecfrommeanbystd | UInt16Col, shape=(3,) | Total number of consecutiveshape=(3,) lightcurve points that are [1, 3, 5]standard deviations either above orbelow the mean magnitude |
 | ngoodobs | UInt16Col | The number of epochal detections thatwere not flagged, masked, norassociated with bad pixels during thesource extraction |
 | processnmedianbufferrange | UInt16Col | Number of points more than 20% ofthe lightcurve amplitude from theweighted mean magnitudenobsUInt16ColTotal number of epochal detections(observation epochs) in the lightcurvefor this object |
 | npairposslope | UInt16Col | Number of positive slopes between allconsecutive pairwise lightcurve points(mag[i+1] brighter than mag[i]) |
-| percentiles | Float32Col, | [mag] [5th, 10th, 17.5th, 25th, 32.5th,shape=(12,)40th, 60th, 67.5th, 75th, 82.5th, 90th, 95th]percentiles in magnitude over | 
-| nobsperiodsearch | Float32Col, | Periodogram peaks in [day],shape=(5,2)periodogram valueprobnonqsoFloat32ColProbability of variability fit to non-quasar-like |
+| percentiles | Float32Col, shape=(12,) | [mag] [5th, 10th, 17.5th, 25th, 32.5th,shape=(12,) 40th, 60th, 67.5th, 75th, 82.5th, 90th, 95th]percentiles in magnitude over | 
+| nobsperiodsearch | Float32Col, shape=(5,2) | Periodogram peaks in [day],shape=(5,2) periodogram valueprobnonqsoFloat32ColProbability of variability fit to non-quasar-like |
 | sourceprobqso | Float32Col | Probability of variability fit to quasar-like sourceraFloat64ColRight Ascension (deg) | 
 | refchi | Float32Col | Chi-sq from reference catalogrefmagFloat32ColMagnitude from ref. |
 | catalogrefmagerr | Float32Col | Uncertainty in refmagrefsharpFloat32ColSharpness from ref. catalog |
-| nbelowmeanbystd | UInt16Col, | Number of lightcurve points that areshape=(3,)[1, 3, 5] standard deviations below themean magnitude over |
+| nbelowmeanbystd | UInt16Col, shape=(3,) | Number of lightcurve points that areshape=(3,) [1, 3, 5] standard deviations below themean magnitude over |
 | nobsnbestobs | UInt16Col | Number of "clean" epochal detectionsused to compute relative photometriccorrections across all observationepochs (= a subset of ngoodobs) | 
-| nconsecabovemeanbystd | UInt16Col, | Number of consecutive lightcurveshape=(3,)points that are [1, 3, 5] standarddeviations above the mean magnitude |
-| nconsecbelowmeanbystd | UInt16Col, | Number of consecutive lightcurveshape=(3,)points that are [1, 3, 5] standarddeviations below the mean magnitude |
-| nconsecfrommeanbystd | UInt16Col, |Total number of consecutiveshape=(3,)lightcurve points that are [1, 3, 5]standard deviations either above orbelow the mean magnitude | 
+| nconsecabovemeanbystd | UInt16Col, shape=(3,) | Number of consecutive lightcurveshape=(3,)points that are [1, 3, 5] standarddeviations above the mean magnitude |
+| nconsecbelowmeanbystd | UInt16Col, shape=(3,)| Number of consecutive lightcurveshape=(3,)points that are [1, 3, 5] standarddeviations below the mean magnitude |
+| nconsecfrommeanbystd | UInt16Col, shape=(3,) |Total number of consecutiveshape=(3,)lightcurve points that are [1, 3, 5]standard deviations either above orbelow the mean magnitude | 
 | ngoodobs | UInt16Col | The number of epochal detections thatwere not flagged, masked, norassociated with bad pixels during thesource extraction process |
 | nmedianbufferrange | UInt16Col | Number of points more than 20% ofthe lightcurve amplitude from theweighted mean magnitude | |nobs | UInt16Col | Total number of epochal detections(observation epochs) in the lightcurvefor this object | 
 | npairposslope | UInt16Col | Number of positive slopes between allconsecutive pairwise lightcurve points(mag[i+1] brighter than mag[i]) | 
-| percentiles | Float32Col, | [mag] [5th, 10th, 17.5th, 25th, 32.5th,shape=(12,)40th, 60th, 67.5th, 75th, 82.5th, 90th, 95th] percentiles in magnitude over nobs |
-|periodsearch | Float32Col, | Periodogram peaks in [day],shape=(5,2)periodogram value |
+| percentiles | Float32Col, shape=(12,) | [mag] [5th, 10th, 17.5th, 25th, 32.5th,shape=(12,) 40th, 60th, 67.5th, 75th, 82.5th, 90th, 95th] percentiles in magnitude over nobs |
+|periodsearch | Float32Col, shape=(5,2) | Periodogram peaks in [day],shape=(5,2) periodogram value |
 | probnonqso | Float32Col | Probability of variability fit to non-quasar-like source |
 |probqso| Float32Col | Probability of variability fit to quasar-like source | 
 | ra | Float64Col | Right Ascension (deg) |
