@@ -60,7 +60,7 @@ Column Name | Data Type | Description |
 | bestminmag | Float32Col | Same as minmag, but using onlynbestobs epochal detections used tocompute relative photometry |
 | bestnabovemeanbystd| UInt16Col, shape=(3,)| Same as nabovemeanbystd, but usingshape=(3,) only nbestobs epochal detections usedto compute relative photometry | 
 | bestnbelowmeanbystd | UInt16Col, shape=(3,) | Same as nbelowmeanbystd, but usingshape=(3,) only nbestobs epochal detections usedto compute relative photometry | 
-| bestnconsecabovemeanbystdU | Int16Col, shape=(3,) | Same as nconsecabovemeanbystd, butshape=(3,) using only nbestobs epochal detectionsused to compute relative photometry. |
+| bestnconsecabovemeanbystd | UInt16Col, shape=(3,) | Same as nconsecabovemeanbystd, butshape=(3,) using only nbestobs epochal detectionsused to compute relative photometry. |
 | bestnconsecbelowmeanbystd | UInt16Col, shape=(3,) | Same as nconsecbelowmeanbystd, butshape=(3,) using only nbestobs epochal detectionsused to compute relative photometry |
 | bestnconsecfrommeanbystd | UInt16Col, shape=(3,) | Same as nconsecfrommeanbystd, butshape=(3,) using only nbestobs epochal detectionsused to compute relative photometry |
 | bestnmedianbufferrange | UInt16Col | Same as nmedianbufferrange, butusing only nbestobs epochal detectionsused to compute relative photometry | 
