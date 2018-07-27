@@ -31,7 +31,7 @@ Column Name | Data Type | Description |
 | ntransients | Int32 | Number of transientdata entries for this expid |
 | obsmjd | Float64 | Modified Julian date of observation | 
 | obshjd | Float64 | Heliocentric Julian date at mean coordinates |
-| | programid | UInt16 | Program ID |
+| programid | UInt16 | Program ID |
 | rcid | UInt8 | Readout-channel ID (0-63) |
 | relphotsatmag | Float32 | Saturation magnitude from relative photometry |
 | relphotsyserr | Float32 | Systematic uncertainty in relphot zero-point |
