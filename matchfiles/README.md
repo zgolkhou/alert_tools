@@ -97,7 +97,7 @@ Column Name | Data Type | Description |
 | nmedianbufferrange | UInt16Col | Number of points more than 20% ofthe lightcurve amplitude from the weighted mean 0 magnitude |
 | nobs | UInt16Col | Total number of epochal detections(observation epochs) in the lightcurvefor this object |
 | npairposslope | UInt16Col | Number of positive slopes between allconsecutive pairwise lightcurve points(mag[i+1] brighter than mag[i]) |
-| percentiles | Float32Col, shape=(12,) | [mag] [5th, 10th, 17.5th, 25th, 32.5th,shape=(12,) 40th, 60th, 67.5th, 75th, 82.5th, 90th, 95th]percentiles in magnitude over nobs |
+| percentiles | Float32Col, shape=(12,) | [mag] [5th, 10th, 17.5th, 25th, 32.5th, shape=(12,) 40th, 60th, 67.5th, 75th, 82.5th, 90th, 95th]percentiles in magnitude over nobs |
 | periodsearch | Float32Col, shape=(5,2) | Periodogram peaks in [day],shape=(5,2) periodogram value |
 | probnonqso | Float32Col | Probability of variability fit to non-quasar-like source |
 | probqso | Float32Col | Probability of variability fit to quasar-like source |
@@ -131,7 +131,8 @@ Column Name | Data Type | Description |
 | dec | Float64Col, | Declination (deg) |
 | expid | Int32Col | Exposure ID (corresponds to exposures table) | 
 | hjd | Float64Col| Heliocentric Julian Date (computed from mjd andthe mean ra and dec of the input catalog) |
-| mag | Float32Col | Magnitude calibrated with relative photometrymagerrFloat32ColUncertainty in calibrated magnitude |
+| mag | Float32Col | Magnitude calibrated with relative photometry |
+| magerr | Float32Col | Uncertainty in calibrated magnitude |
 | matchid | Int32Col | Match ID corresponding to entries in sources |
 | tablemjd | Float64Col | Modified Julian date |
 |programid | UInt16Col | Program ID |
@@ -146,7 +147,7 @@ Column Name | Data Type | Description |
 | snr | Float32Col | Signal-to-noise ratio |
 | x| Float64Col | cos(RA)*cos(Dec) |
 | xpos | Float32Col | x-center in pixels | 
-| y | Float64Col| sin(RA)*cos(Dec) | 
+| y | Float64Col | sin(RA)*cos(Dec) | 
 | ypos | Float32Col | y-center in pixels | 
 | z | Float64Col | cos(RA) |
 
