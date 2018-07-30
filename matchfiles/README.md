@@ -46,24 +46,24 @@ The x, y, z, and matched columns are indexed with pytables defaults (medium inde
 
 Column Name | Data Type | Description |
 |:--------|:-------|:--------|
-| astrometricrms | Float64Col | [degrees] Root Mean Squared deviation in epochal positions relativeto the object's ra,dec; effectively theroot-summed mean squared deviationsalong the ra and dec axes |
+| astrometricrms | Float64Col | [degrees] Root Mean Squared deviation in epochal positions relative to the object's ra,dec; effectively theroot-summed mean squared deviations along the ra and dec axes |
 | bestastrometricrms | Float64Col | Same as astrometricrms, but usingonly nbestobs epochal detections usedto compute relative photometry|
-| bestchisq | Float32Col | Same as chisq, but using only nbestobs epochal detections used to computerelative photometry |
-| bestcon | Float32Col | Same as con, but using only nbestobs epochal detections used to computerelative photometry |
+| bestchisq | Float32Col | Same as chisq, but using only nbestobs epochal detections used to compute relative photometry |
+| bestcon | Float32Col | Same as con, but using only nbestobs epochal detections used to compute relative photometry |
 | bestlineartrend | Float32Col | Same as lineartrend, but using only nbestobs epochal detections used tocompute relative photometry |
 | bestmagrms | Float32Col | Same as lineartrend, but using only nbestobs epochal detections used tocompute relative photometry |
-| bestmaxmag | Float32Col | Same as maxmag, but using only nbestobs epochal detections used tocompute relative photometry | 
+| bestmaxmag | Float32Col | Same as maxmag, but using only nbestobs epochal detections used to compute relative photometry | 
 | bestmaxslope | Float32Col | Same as maxslope, but using only nbestobs epochal detections used tocompute relative photometry |
 | bestmeanmag | Float32Col | Same as meanmag, but using only nbestobs epochal detections used tocompute relative photometry| 
 | bestmedianabsdev | Float32Col | Same as medianabsdev, but using only nbestobs epochal detections used tocompute relative photometry |
 | bestmedianmag | Float32Col | Same as medianmag, but using only nbestobs epochal detections used tocompute relative photometry |
-| bestminmag | Float32Col | Same as minmag, but using only nbestobs epochal detections used tocompute relative photometry |
+| bestminmag | Float32Col | Same as minmag, but using only nbestobs epochal detections used to compute relative photometry |
 | bestnabovemeanbystd| UInt16Col, shape=(3,)| Same as nabovemeanbystd, but usingshape=(3,) only nbestobs epochal detections usedto compute relative photometry | 
 | bestnbelowmeanbystd | UInt16Col, shape=(3,) | Same as nbelowmeanbystd, but usingshape=(3,) only nbestobs epochal detections usedto compute relative photometry | 
 | bestnconsecabovemeanbystd | UInt16Col, shape=(3,) | Same as nconsecabovemeanbystd, butshape=(3,) using only nbestobs epochal detectionsused to compute relative photometry. |
 | bestnconsecbelowmeanbystd | UInt16Col, shape=(3,) | Same as nconsecbelowmeanbystd, butshape=(3,) using only nbestobs epochal detectionsused to compute relative photometry |
 | bestnconsecfrommeanbystd | UInt16Col, shape=(3,) | Same as nconsecfrommeanbystd, butshape=(3,) using only nbestobs epochal detectionsused to compute relative photometry |
-| bestnmedianbufferrange | UInt16Col | Same as nmedianbufferrange, but using only nbestobs epochal detectionsused to compute relative photometry | 
+| bestnmedianbufferrange | UInt16Col | Same as nmedianbufferrange, but using only nbestobs epochal detections used to compute relative photometry | 
 | bestnpairposslope | UInt16Col | Same as npairposslope, but using only nbestobs epochal detections used tocompute relative photometry | 
 | bestpercentiles | Float32Col, shape=(12,) | Same as percentiles, but using onlyshape=(12,) nbestobs epochal detections used tocompute relative photometry | 
 | bestperiodsearch | Float32Col, shape=(5,2) | Same as period search but using onlyshape=(5,2) nbestobs epochal detections used tocompute relative photometry | 
