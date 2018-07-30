@@ -46,59 +46,59 @@ The x, y, z, and matched columns are indexed with pytables defaults (medium inde
 
 Column Name | Data Type | Description |
 |:--------|:-------|:--------|
-| astrometricrms | Float64Col | [degrees] Root Mean Squareddeviation in epochal positions relativeto the object's ra,dec; effectively theroot-summed mean squared deviationsalong the ra and dec axes |
+| astrometricrms | Float64Col | [degrees] Root Mean Squared deviation in epochal positions relativeto the object's ra,dec; effectively theroot-summed mean squared deviationsalong the ra and dec axes |
 | bestastrometricrms | Float64Col | Same as astrometricrms, but usingonly nbestobs epochal detections usedto compute relative photometry|
-| bestchisq | Float32Col | Same as chisq, but using only nbestobsepochal detections used to computerelative photometry |
-| bestcon | Float32Col | Same as con, but using only nbestobsepochal detections used to computerelative photometry |
-| bestlineartrend | Float32Col | Same as lineartrend, but using onlynbestobs epochal detections used tocompute relative photometry |
-| bestmagrms | Float32Col | Same as lineartrend, but using onlynbestobs epochal detections used tocompute relative photometry |
-| bestmaxmag | Float32Col | Same as maxmag, but using onlynbestobs epochal detections used tocompute relative photometry | 
-| bestmaxslope | Float32Col | Same as maxslope, but using onlynbestobs epochal detections used tocompute relative photometry |
-| bestmeanmag | Float32Col | Same as meanmag, but using onlynbestobs epochal detections used tocompute relative photometry| 
-| bestmedianabsdev | Float32Col | Same as medianabsdev, but using onlynbestobs epochal detections used tocompute relative photometry |
-| bestmedianmag | Float32Col | Same as medianmag, but using onlynbestobs epochal detections used tocompute relative photometry |
-| bestminmag | Float32Col | Same as minmag, but using onlynbestobs epochal detections used tocompute relative photometry |
+| bestchisq | Float32Col | Same as chisq, but using only nbestobs epochal detections used to computerelative photometry |
+| bestcon | Float32Col | Same as con, but using only nbestobs epochal detections used to computerelative photometry |
+| bestlineartrend | Float32Col | Same as lineartrend, but using only nbestobs epochal detections used tocompute relative photometry |
+| bestmagrms | Float32Col | Same as lineartrend, but using only nbestobs epochal detections used tocompute relative photometry |
+| bestmaxmag | Float32Col | Same as maxmag, but using only nbestobs epochal detections used tocompute relative photometry | 
+| bestmaxslope | Float32Col | Same as maxslope, but using only nbestobs epochal detections used tocompute relative photometry |
+| bestmeanmag | Float32Col | Same as meanmag, but using only nbestobs epochal detections used tocompute relative photometry| 
+| bestmedianabsdev | Float32Col | Same as medianabsdev, but using only nbestobs epochal detections used tocompute relative photometry |
+| bestmedianmag | Float32Col | Same as medianmag, but using only nbestobs epochal detections used tocompute relative photometry |
+| bestminmag | Float32Col | Same as minmag, but using only nbestobs epochal detections used tocompute relative photometry |
 | bestnabovemeanbystd| UInt16Col, shape=(3,)| Same as nabovemeanbystd, but usingshape=(3,) only nbestobs epochal detections usedto compute relative photometry | 
 | bestnbelowmeanbystd | UInt16Col, shape=(3,) | Same as nbelowmeanbystd, but usingshape=(3,) only nbestobs epochal detections usedto compute relative photometry | 
 | bestnconsecabovemeanbystd | UInt16Col, shape=(3,) | Same as nconsecabovemeanbystd, butshape=(3,) using only nbestobs epochal detectionsused to compute relative photometry. |
 | bestnconsecbelowmeanbystd | UInt16Col, shape=(3,) | Same as nconsecbelowmeanbystd, butshape=(3,) using only nbestobs epochal detectionsused to compute relative photometry |
 | bestnconsecfrommeanbystd | UInt16Col, shape=(3,) | Same as nconsecfrommeanbystd, butshape=(3,) using only nbestobs epochal detectionsused to compute relative photometry |
-| bestnmedianbufferrange | UInt16Col | Same as nmedianbufferrange, butusing only nbestobs epochal detectionsused to compute relative photometry | 
-| bestnpairposslope | UInt16Col | Same as npairposslope, but using onlynbestobs epochal detections used tocompute relative photometry | 
+| bestnmedianbufferrange | UInt16Col | Same as nmedianbufferrange, but using only nbestobs epochal detectionsused to compute relative photometry | 
+| bestnpairposslope | UInt16Col | Same as npairposslope, but using only nbestobs epochal detections used tocompute relative photometry | 
 | bestpercentiles | Float32Col, shape=(12,) | Same as percentiles, but using onlyshape=(12,) nbestobs epochal detections used tocompute relative photometry | 
-| bestperiodsearch | Float32Col, shape=(5,2) | Same as periodsearch but using onlyshape=(5,2) nbestobs epochal detections used tocompute relative photometry | 
-| bestprobnonqso | Float32Col | Same as probnonqso, but using onlynbestobs epochal detections used tocompute relative photometry | 
+| bestperiodsearch | Float32Col, shape=(5,2) | Same as period search but using onlyshape=(5,2) nbestobs epochal detections used tocompute relative photometry | 
+| bestprobnonqso | Float32Col | Same as probnonqso, but using only nbestobs epochal detections used tocompute relative photometry | 
 | bestprobqso | Float32Col | Same as probqso, but using onlynbestobs epochal detections used tocompute relative photometry | 
 | bestskewness | Float32Col | Same as skewness, but using onlynbestobs epochal detections used tocompute relative photometry |
 | bestsmallkurtosis | Float32Col | Same as smallkurtosis, but using onlynbestobs epochal detections used to |
 | beststetsonj | Float32Col | Same as stetsonj, but using onlynbestobs epochal detections used tocompute relative photometry | | beststetsonk | Float32Col | Same as stetsonk, but using onlynbestobs epochal detections used tocompute relative photometry | 
 | bestvonneumannratio | Float32Col | Same as vonneumannratio, but usingonly nbestobs epochal detections usedto compute relative photometry | 
-| bestweightedmagrms | Float32Col | Same as weightedmagrms, but usingonly nbestobs epochal detections usedto compute relative photometry | 
-| bestweightedmeanmag | Float32Col | Same as weightedmeanmag, but usingonly nbestobs epochal detections usedto compute relative photometry | 
+| bestweightedmagrms | Float32Col | Same as weightedmagrms, but using only nbestobs epochal detections usedto compute relative photometry | 
+| bestweightedmeanmag | Float32Col | Same as weighted meanmag, but using only nbestobs epochal detections usedto compute relative photometry | 
 | chisq | Float32 | ColChi-square metric using nobs detections |
-| con | Float32 | Colfraction of nobs where threeconsecutive observations are morethan 2x RMS from the medianmagnitude, plus 1 | 
+| con | Float32 | Colfraction of nobs where three consecutive observations are morethan 2x RMS from the median magnitude, plus 1 | 
 | dec | Float64 | ColDeclination (deg) |
 | lineartrend | Float32Col | [mag/day] Slope from linear fit to nobs detections |
 | magrms | Float32Col | [mag] Root Mean Squared deviation innobs magnitudes |
-| matchid | Int32Col | Index into the sourcedata table (forpulling out light curves) |
+| matchid | Int32Col | Index into the source data table (forpulling out light curves) |
 | maxmag | Float32Col | [mag] Maximum magnitude over nobs detections | 
-| maxslope | Float32Col | [mag/day] Maximum pairwise slopeover all consecutive nobs detections |
+| maxslope | Float32Col | [mag/day] Maximum pairwise slope over all consecutive nobs detections |
 | meanmag | Float32Col | [mag] Mean magnitude over nobs detections |
 | medianabsdev | Float32Col | [mag] Median absolute deviation inmagnitudes over nobs detections | 
 | medianmag | Float32Col | [mag] Median magnitude over nobs detections |
 | minmag | Float32Col | [mag] Minimum magnitude over nobs detections |
 | nabovemeanbystd | UInt16Col, shape=(3,) | Number of lightcurve points that areshape=(3,) [1, 3, 5] standard deviations above themean magnitude over nobs |
 | nbelowmeanbystd | UInt16Col, shape=(3,) | Number of lightcurve points that areshape=(3,) [1, 3, 5] standard deviations below themean magnitude over |
-| nobsnbestobs | UInt16Col | Number of "clean" epochal detectionsused to compute relative photometriccorrections across all observationepochs (= a subset of ngoodobs) |
+| nobsnbestobs | UInt16Col | Number of "clean" epochal detections used to compute relative photometric corrections across all observationepochs (= a subset of ngoodobs) |
 | nconsecabovemeanbystd | UInt16Col, shape=(3,) | Number of consecutive lightcurveshape=(3,) points that are [1, 3, 5] standarddeviations above the mean magnitude |
 | nconsecbelowmeanbystd | UInt16Col, shape=(3,) | Number of consecutive lightcurveshape=(3,) points that are [1, 3, 5] standarddeviations below the mean magnitude | 
 | nconsecfrommeanbystd | UInt16Col, shape=(3,) | Total number of consecutiveshape=(3,) lightcurve points that are [1, 3, 5]standard deviations either above orbelow the mean magnitude |
 | ngoodobs | UInt16Col | The number of epochal detections thatwere not flagged, masked, norassociated with bad pixels during thesource extraction process |
 | nmedianbufferrange | UInt16Col | Number of points more than 20% ofthe lightcurve amplitude from the weighted mean 0 magnitude |
-| nobs | UInt16Col | Total number of epochal detections(observation epochs) in the lightcurvefor this object |
-| npairposslope | UInt16Col | Number of positive slopes between allconsecutive pairwise lightcurve points(mag[i+1] brighter than mag[i]) |
+| nobs | UInt16Col | Total number of epochal detections(observation epochs) in the lightcurve for this object |
+| npairposslope | UInt16Col | Number of positive slopes between all consecutive pairwise lightcurve points(mag[i+1] brighter than mag[i]) |
 | percentiles | Float32Col, shape=(12,) | [mag] [5th, 10th, 17.5th, 25th, 32.5th, shape=(12,) 40th, 60th, 67.5th, 75th, 82.5th, 90th, 95th]percentiles in magnitude over nobs |
-| periodsearch | Float32Col, shape=(5,2) | Periodogram peaks in [day],shape=(5,2) periodogram value |
+| periodsearch | Float32Col, shape=(5,2) | Periodogram peaks in [day], shape=(5,2) periodogram value |
 | probnonqso | Float32Col | Probability of variability fit to non-quasar-like source |
 | probqso | Float32Col | Probability of variability fit to quasar-like source |
 | ra | Float64Col | Right Ascension (deg) | 
@@ -106,10 +106,11 @@ Column Name | Data Type | Description |
 | refmag | Float32Col | Magnitude from ref. catalog |
 | refmagerr | Float32Col | Uncertainty in refmag |
 | refsharp | Float32Col | Sharpness from ref. catalog |
-| refsnr | Float32Col | SNR from reference catalogskewnessFloat32ColSkew (third moment) in lightcurvemagnitudes over nobs | 
-| smallkurtosis | Float32Col | Kurtosis (fourth moment) in lightcurvemagnitudes over nobs for smallsamples(http://www.xycoon.com/peakedness_small_sample_test_1.htm) |
-| stetsonj | Float32Col | Stetson-J statistic for this filter only;measures degree of autocorrelation in magnitudes over nobs|
-| stetsonk | Float32Col | Stetson-K statistic; proportional to thekurtosis of the magnitude distribution over nobs | 
+| refsnr | Float32Col | SNR from reference catalog |
+| skewness | Float32Col | Skew (third moment) in lightcurve magnitudes over nobs | 
+| smallkurtosis | Float32Col | Kurtosis (fourth moment) in lightcurve magnitudes over nobs for smallsamples(http://www.xycoon.com/peakedness_small_sample_test_1.htm) |
+| stetsonj | Float32Col | Stetson-J statistic for this filter only; measures degree of autocorrelation in magnitudes over nobs|
+| stetsonk | Float32Col | Stetson-K statistic; proportional to the kurtosis of the magnitude distribution over nobs | 
 | uncalibmeanmag | Float32Col | Mean of uncalibrated mags | 
 | vonneumannratio | Float32Col | The von Neumann Ratio statistic overnobs; measure of epoch-to-epoch variability |
 | weightedmagrms | Float32Col | [mag] Root Mean Square magnitudeover nobs using inverse-variance weighting. |
