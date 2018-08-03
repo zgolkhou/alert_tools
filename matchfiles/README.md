@@ -1,3 +1,8 @@
+### FILE FORMAT
+```
+The ZTF matchfiles are stored in HDF5 format, and are readable and 
+writable by the pytables Python package.
+
 # TABLES ACCESSIBLE AT THE MATCH GROUP LEVEL
 Five tables are attached to the match group:
 - ### Exposures
