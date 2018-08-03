@@ -16,6 +16,13 @@ The matchfiles are stored on the ZTF systems in subdirectories of /ztf/ops/srcma
 where the subdirectories take the form rcNN/frNNNNNN-NNNNNN similar to the reference images.
 ```
 
+### FILE NAMING CONVENTION
+```
+The matchfiles follow the naming convention of reference images, 
+ztf_NNNNNN_zC_cNN_qN_match.pytable where the capital items are field number, 
+filter letter, chip number and quadrant number.
+```
+---
 
 # TABLES ACCESSIBLE AT THE MATCH GROUP LEVEL
 Five tables are attached to the match group:
