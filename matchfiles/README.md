@@ -10,6 +10,12 @@ The HDF5 groups within each file is named “matches”. For example, the hierar
 in a file is store.root.matches where store is the pytables file handle.
 ```
 
+### FILE LOCATIONS
+```
+The matchfiles are stored on the ZTF systems in subdirectories of /ztf/ops/srcmatch, 
+where the subdirectories take the form rcNN/frNNNNNN-NNNNNN similar to the reference images.
+```
+
 
 # TABLES ACCESSIBLE AT THE MATCH GROUP LEVEL
 Five tables are attached to the match group:
