@@ -4,6 +4,13 @@ The ZTF matchfiles are stored in HDF5 format, and are readable and
 writable by the pytables Python package.
 ```
 
+### GROUPS WITHIN THE FILE
+```
+The HDF5 groups within each file is named “matches”. For example, the hierarchy 
+in a file is store.root.matches where store is the pytables file handle.
+```
+
+
 # TABLES ACCESSIBLE AT THE MATCH GROUP LEVEL
 Five tables are attached to the match group:
 - ### Exposures
