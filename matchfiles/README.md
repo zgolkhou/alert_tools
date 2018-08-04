@@ -101,8 +101,8 @@ Column Name | Data Type | Description |
 | bestvonneumannratio | Float32Col | Same as vonneumannratio, but usingonly nbestobs epochal detections usedto compute relative photometry | 
 | bestweightedmagrms | Float32Col | Same as weightedmagrms, but using only nbestobs epochal detections usedto compute relative photometry | 
 | bestweightedmeanmag | Float32Col | Same as weighted meanmag, but using only nbestobs epochal detections usedto compute relative photometry | 
-| chisq | Float32 | ColChi-square metric using nobs detections |
-| con | Float32 | Colfraction of nobs where three consecutive observations are morethan 2x RMS from the median magnitude, plus 1 | 
+| chisq | Float32Col | Chi-square metric using nobs detections |
+| con | Float32Col | fraction of nobs where three consecutive observations are morethan 2x RMS from the median magnitude, plus 1 | 
 | dec | Float64 | ColDeclination (deg) |
 | lineartrend | Float32Col | [mag/day] Slope from linear fit to nobs detections |
 | magrms | Float32Col | [mag] Root Mean Squared deviation innobs magnitudes |
