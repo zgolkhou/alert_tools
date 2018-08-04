@@ -103,7 +103,7 @@ Column Name | Data Type | Description |
 | bestweightedmeanmag | Float32Col | Same as weighted meanmag, but using only nbestobs epochal detections usedto compute relative photometry | 
 | chisq | Float32Col | Chi-square metric using nobs detections |
 | con | Float32Col | fraction of nobs where three consecutive observations are morethan 2x RMS from the median magnitude, plus 1 | 
-| dec | Float64 | ColDeclination (deg) |
+| dec | Float64Col | Declination (deg) |
 | lineartrend | Float32Col | [mag/day] Slope from linear fit to nobs detections |
 | magrms | Float32Col | [mag] Root Mean Squared deviation innobs magnitudes |
 | matchid | Int32Col | Index into the source data table (forpulling out light curves) |
