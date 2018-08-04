@@ -77,9 +77,9 @@ Column Name | Data Type | Description |
 | bestchisq | Float32Col | Same as chisq, but using only nbestobs epochal detections used to compute relative photometry |
 | bestcon | Float32Col | Same as con, but using only nbestobs epochal detections used to compute relative photometry |
 | bestlineartrend | Float32Col | Same as lineartrend, but using only nbestobs epochal detections used tocompute relative photometry |
-| bestmagrms | Float32Col | Same as lineartrend, but using only nbestobs epochal detections used tocompute relative photometry |
+| bestmagrms | Float32Col | Same as lineartrend, but using only nbestobs epochal detections used to compute relative photometry |
 | bestmaxmag | Float32Col | Same as maxmag, but using only nbestobs epochal detections used to compute relative photometry | 
-| bestmaxslope | Float32Col | Same as maxslope, but using only nbestobs epochal detections used tocompute relative photometry |
+| bestmaxslope | Float32Col | Same as maxslope, but using only nbestobs epochal detections used to compute relative photometry |
 | bestmeanmag | Float32Col | Same as meanmag, but using only nbestobs epochal detections used tocompute relative photometry| 
 | bestmedianabsdev | Float32Col | Same as medianabsdev, but using only nbestobs epochal detections used tocompute relative photometry |
 | bestmedianmag | Float32Col | Same as medianmag, but using only nbestobs epochal detections used tocompute relative photometry |
@@ -94,10 +94,10 @@ Column Name | Data Type | Description |
 | bestpercentiles | Float32Col, shape=(12,) | Same as percentiles, but using onlyshape=(12,) nbestobs epochal detections used tocompute relative photometry | 
 | bestperiodsearch | Float32Col, shape=(5,2) | Same as period search but using onlyshape=(5,2) nbestobs epochal detections used tocompute relative photometry | 
 | bestprobnonqso | Float32Col | Same as probnonqso, but using only nbestobs epochal detections used tocompute relative photometry | 
-| bestprobqso | Float32Col | Same as probqso, but using onlynbestobs epochal detections used tocompute relative photometry | 
-| bestskewness | Float32Col | Same as skewness, but using onlynbestobs epochal detections used tocompute relative photometry |
+| bestprobqso | Float32Col | Same as probqso, but using only nbestobs epochal detections used tocompute relative photometry | 
+| bestskewness | Float32Col | Same as skewness, but using only nbestobs epochal detections used tocompute relative photometry |
 | bestsmallkurtosis | Float32Col | Same as smallkurtosis, but using onlynbestobs epochal detections used to |
-| beststetsonj | Float32Col | Same as stetsonj, but using onlynbestobs epochal detections used tocompute relative photometry | | beststetsonk | Float32Col | Same as stetsonk, but using onlynbestobs epochal detections used tocompute relative photometry | 
+| beststetsonj | Float32Col | Same as stetsonj, but using only nbestobs epochal detections used tocompute relative photometry | | beststetsonk | Float32Col | Same as stetsonk, but using only nbestobs epochal detections used tocompute relative photometry | 
 | bestvonneumannratio | Float32Col | Same as vonneumannratio, but usingonly nbestobs epochal detections usedto compute relative photometry | 
 | bestweightedmagrms | Float32Col | Same as weightedmagrms, but using only nbestobs epochal detections usedto compute relative photometry | 
 | bestweightedmeanmag | Float32Col | Same as weighted meanmag, but using only nbestobs epochal detections usedto compute relative photometry | 
