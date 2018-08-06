@@ -1,6 +1,6 @@
 ```
 source: The ZTF Science Data System (ZSDS)
-        Pipelines, Definitions, Data Products & Access Version 3.2, July 3, 2018
+        Pipelines, Definitions, Data Products & Access (Version 3.2, July 3, 2018)
         Frank J. Masci, et. al.
 ```
 
