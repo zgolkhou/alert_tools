@@ -127,8 +127,8 @@ Column Name | Data Type | Description |
 | nconsecfrommeanbystd | UInt16Col, shape=(3,) | Total number of consecutiveshape=(3,) lightcurve points that are [1, 3, 5]standard deviations either above orbelow the mean magnitude |
 | ngoodobs | UInt16Col | The number of epochal detections thatwere not flagged, masked, norassociated with bad pixels during thesource extraction process |
 | nmedianbufferrange | UInt16Col | Number of points more than 20% ofthe lightcurve amplitude from the weighted mean 0 magnitude |
-| nobs | UInt16Col | Total number of epochal detections(observation epochs) in the lightcurve for this object |
-| npairposslope | UInt16Col | Number of positive slopes between all consecutive pairwise lightcurve points(mag[i+1] brighter than mag[i]) |
+| nobs | UInt16Col | Total number of epochal detections (observation epochs) in the lightcurve for this object |
+| npairposslope | UInt16Col | Number of positive slopes between all consecutive pairwise lightcurve points (mag[i+1] brighter than mag[i]) |
 | percentiles | Float32Col, shape=(12,) | [mag] [5th, 10th, 17.5th, 25th, 32.5th, shape=(12,) 40th, 60th, 67.5th, 75th, 82.5th, 90th, 95th]percentiles in magnitude over nobs |
 | periodsearch | Float32Col, shape=(5,2) | Periodogram peaks in [day], shape=(5,2) periodogram value |
 | probnonqso | Float32Col | Probability of variability fit to non-quasar-like source |
