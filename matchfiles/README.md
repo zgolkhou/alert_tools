@@ -102,7 +102,7 @@ Column Name | Data Type | Description |
 | bestprobnonqso | Float32Col | Same as probnonqso, but using only nbestobs epochal detections used tocompute relative photometry | 
 | bestprobqso | Float32Col | Same as probqso, but using only nbestobs epochal detections used tocompute relative photometry | 
 | bestskewness | Float32Col | Same as skewness, but using only nbestobs epochal detections used tocompute relative photometry |
-| bestsmallkurtosis | Float32Col | Same as smallkurtosis, but using onlynbestobs epochal detections used to |
+| bestsmallkurtosis | Float32Col | Same as smallkurtosis, but using only nbestobs epochal detections used to |
 | beststetsonj | Float32Col | Same as stetsonj, but using only nbestobs epochal detections used tocompute relative photometry | | beststetsonk | Float32Col | Same as stetsonk, but using only nbestobs epochal detections used tocompute relative photometry | 
 | bestvonneumannratio | Float32Col | Same as vonneumannratio, but usingonly nbestobs epochal detections usedto compute relative photometry | 
 | bestweightedmagrms | Float32Col | Same as weightedmagrms, but using only nbestobs epochal detections usedto compute relative photometry | 
