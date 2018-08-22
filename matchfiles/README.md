@@ -73,13 +73,13 @@ Column Name | Data Type | Description |
 ---
 
 ### SOURCES TABLE
-Each row in the sources table corresponds to an Object that appeared in the reference catalog that seeded the matchfile. Most of the columns are light curve statistics computed on the time series data in the sourcedata table. Note that several columns contain multidimensional arrays.
+Each row in the sources table corresponds to an Object that appeared in the reference catalog that seeded the matchfile. Most of the columns are light curve statistics computed on the time series data in the source data table. Note that several columns contain multidimensional arrays.
 The x, y, z, and matched columns are indexed with pytables defaults (medium index).
 
 Column Name | Data Type | Description |
 |:--------|:-------|:--------|
 | astrometricrms | Float64Col | [degrees] Root Mean Squared deviation in epochal positions relative to the object's ra,dec; effectively theroot-summed mean squared deviations along the ra and dec axes |
-| bestastrometricrms | Float64Col | Same as astrometricrms, but usingonly nbestobs epochal detections usedto compute relative photometry|
+| bestastrometricrms | Float64Col | Same as astrometricrms, but usingonly nbestobs epochal detections used to compute relative photometry|
 | bestchisq | Float32Col | Same as chisq, but using only nbestobs epochal detections used to compute relative photometry |
 | bestcon | Float32Col | Same as con, but using only nbestobs epochal detections used to compute relative photometry |
 | bestlineartrend | Float32Col | Same as lineartrend, but using only nbestobs epochal detections used tocompute relative photometry |
