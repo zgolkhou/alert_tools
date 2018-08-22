@@ -104,9 +104,9 @@ Column Name | Data Type | Description |
 | bestskewness | Float32Col | Same as skewness, but using only nbestobs epochal detections used tocompute relative photometry |
 | bestsmallkurtosis | Float32Col | Same as smallkurtosis, but using only nbestobs epochal detections used to |
 | beststetsonj | Float32Col | Same as stetsonj, but using only nbestobs epochal detections used to compute relative photometry | | beststetsonk | Float32Col | Same as stetsonk, but using only nbestobs epochal detections used to compute relative photometry | 
-| bestvonneumannratio | Float32Col | Same as vonneumannratio, but using only nbestobs epochal detections usedto compute relative photometry | 
-| bestweightedmagrms | Float32Col | Same as weightedmagrms, but using only nbestobs epochal detections usedto compute relative photometry | 
-| bestweightedmeanmag | Float32Col | Same as weighted meanmag, but using only nbestobs epochal detections usedto compute relative photometry | 
+| bestvonneumannratio | Float32Col | Same as vonneumannratio, but using only nbestobs epochal detections used to compute relative photometry | 
+| bestweightedmagrms | Float32Col | Same as weightedmagrms, but using only nbestobs epochal detections used to compute relative photometry | 
+| bestweightedmeanmag | Float32Col | Same as weighted meanmag, but using only nbestobs epochal detections used to compute relative photometry | 
 | chisq | Float32Col | Chi-square metric using nobs detections |
 | con | Float32Col | fraction of nobs where three consecutive observations are morethan 2x RMS from the median magnitude, plus 1 | 
 | dec | Float64Col | Declination (deg) |
