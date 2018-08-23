@@ -87,7 +87,7 @@ Column Name | Data Type | Description |
 | bestmaxmag | Float32Col | Same as maxmag, but using only nbestobs epochal detections used to compute relative photometry | 
 | bestmaxslope | Float32Col | Same as maxslope, but using only nbestobs epochal detections used to compute relative photometry |
 | bestmeanmag | Float32Col | Same as meanmag, but using only nbestobs epochal detections used to compute relative photometry| 
-| bestmedianabsdev | Float32Col | Same as medianabsdev, but using only nbestobs epochal detections used tocompute relative photometry |
+| bestmedianabsdev | Float32Col | Same as medianabsdev, but using only nbestobs epochal detections used to compute relative photometry |
 | bestmedianmag | Float32Col | Same as medianmag, but using only nbestobs epochal detections used to compute relative photometry |
 | bestminmag | Float32Col | Same as minmag, but using only nbestobs epochal detections used to compute relative photometry |
 | bestnabovemeanbystd| UInt16Col, shape=(3,)| Same as nabovemeanbystd, but usingshape=(3,) only nbestobs epochal detections usedto compute relative photometry | 
@@ -96,7 +96,7 @@ Column Name | Data Type | Description |
 | bestnconsecbelowmeanbystd | UInt16Col, shape=(3,) | Same as nconsecbelowmeanbystd, but shape=(3,) using only nbestobs epochal detectionsused to compute relative photometry |
 | bestnconsecfrommeanbystd | UInt16Col, shape=(3,) | Same as nconsecfrommeanbystd, but shape=(3,) using only nbestobs epochal detectionsused to compute relative photometry |
 | bestnmedianbufferrange | UInt16Col | Same as nmedianbufferrange, but using only nbestobs epochal detections used to compute relative photometry | 
-| bestnpairposslope | UInt16Col | Same as npairposslope, but using only nbestobs epochal detections used tocompute relative photometry | 
+| bestnpairposslope | UInt16Col | Same as npairposslope, but using only nbestobs epochal detections used to compute relative photometry | 
 | bestpercentiles | Float32Col, shape=(12,) | Same as percentiles, but using only shape=(12,) nbestobs epochal detections used tocompute relative photometry | 
 | bestperiodsearch | Float32Col, shape=(5,2) | Same as period search but using only shape=(5,2) nbestobs epochal detections used tocompute relative photometry | 
 | bestprobnonqso | Float32Col | Same as probnonqso, but using only nbestobs epochal detections used to compute relative photometry | 
