@@ -100,8 +100,8 @@ Column Name | Data Type | Description |
 | bestpercentiles | Float32Col, shape=(12,) | Same as percentiles, but using only shape=(12,) nbestobs epochal detections used tocompute relative photometry | 
 | bestperiodsearch | Float32Col, shape=(5,2) | Same as period search but using only shape=(5,2) nbestobs epochal detections used tocompute relative photometry | 
 | bestprobnonqso | Float32Col | Same as probnonqso, but using only nbestobs epochal detections used tocompute relative photometry | 
-| bestprobqso | Float32Col | Same as probqso, but using only nbestobs epochal detections used tocompute relative photometry | 
-| bestskewness | Float32Col | Same as skewness, but using only nbestobs epochal detections used tocompute relative photometry |
+| bestprobqso | Float32Col | Same as probqso, but using only nbestobs epochal detections used to compute relative photometry | 
+| bestskewness | Float32Col | Same as skewness, but using only nbestobs epochal detections used to compute relative photometry |
 | bestsmallkurtosis | Float32Col | Same as smallkurtosis, but using only nbestobs epochal detections used to |
 | beststetsonj | Float32Col | Same as stetsonj, but using only nbestobs epochal detections used to compute relative photometry | | beststetsonk | Float32Col | Same as stetsonk, but using only nbestobs epochal detections used to compute relative photometry | 
 | bestvonneumannratio | Float32Col | Same as vonneumannratio, but using only nbestobs epochal detections used to compute relative photometry | 
