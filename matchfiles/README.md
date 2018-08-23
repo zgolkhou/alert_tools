@@ -99,7 +99,7 @@ Column Name | Data Type | Description |
 | bestnpairposslope | UInt16Col | Same as npairposslope, but using only nbestobs epochal detections used tocompute relative photometry | 
 | bestpercentiles | Float32Col, shape=(12,) | Same as percentiles, but using only shape=(12,) nbestobs epochal detections used tocompute relative photometry | 
 | bestperiodsearch | Float32Col, shape=(5,2) | Same as period search but using only shape=(5,2) nbestobs epochal detections used tocompute relative photometry | 
-| bestprobnonqso | Float32Col | Same as probnonqso, but using only nbestobs epochal detections used tocompute relative photometry | 
+| bestprobnonqso | Float32Col | Same as probnonqso, but using only nbestobs epochal detections used to compute relative photometry | 
 | bestprobqso | Float32Col | Same as probqso, but using only nbestobs epochal detections used to compute relative photometry | 
 | bestskewness | Float32Col | Same as skewness, but using only nbestobs epochal detections used to compute relative photometry |
 | bestsmallkurtosis | Float32Col | Same as smallkurtosis, but using only nbestobs epochal detections used to |
