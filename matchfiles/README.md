@@ -116,7 +116,7 @@ Column Name | Data Type | Description |
 | maxmag | Float32Col | [mag] Maximum magnitude over nobs detections | 
 | maxslope | Float32Col | [mag/day] Maximum pairwise slope over all consecutive nobs detections |
 | meanmag | Float32Col | [mag] Mean magnitude over nobs detections |
-| medianabsdev | Float32Col | [mag] Median absolute deviation inmagnitudes over nobs detections | 
+| medianabsdev | Float32Col | [mag] Median absolute deviation in magnitudes over nobs detections | 
 | medianmag | Float32Col | [mag] Median magnitude over nobs detections |
 | minmag | Float32Col | [mag] Minimum magnitude over nobs detections |
 | nabovemeanbystd | UInt16Col, shape=(3,) | Number of lightcurve points that areshape=(3,) [1, 3, 5] standard deviations above themean magnitude over nobs |
