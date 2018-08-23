@@ -86,9 +86,9 @@ Column Name | Data Type | Description |
 | bestmagrms | Float32Col | Same as lineartrend, but using only nbestobs epochal detections used to compute relative photometry |
 | bestmaxmag | Float32Col | Same as maxmag, but using only nbestobs epochal detections used to compute relative photometry | 
 | bestmaxslope | Float32Col | Same as maxslope, but using only nbestobs epochal detections used to compute relative photometry |
-| bestmeanmag | Float32Col | Same as meanmag, but using only nbestobs epochal detections used tocompute relative photometry| 
+| bestmeanmag | Float32Col | Same as meanmag, but using only nbestobs epochal detections used to compute relative photometry| 
 | bestmedianabsdev | Float32Col | Same as medianabsdev, but using only nbestobs epochal detections used tocompute relative photometry |
-| bestmedianmag | Float32Col | Same as medianmag, but using only nbestobs epochal detections used tocompute relative photometry |
+| bestmedianmag | Float32Col | Same as medianmag, but using only nbestobs epochal detections used to compute relative photometry |
 | bestminmag | Float32Col | Same as minmag, but using only nbestobs epochal detections used to compute relative photometry |
 | bestnabovemeanbystd| UInt16Col, shape=(3,)| Same as nabovemeanbystd, but usingshape=(3,) only nbestobs epochal detections usedto compute relative photometry | 
 | bestnbelowmeanbystd | UInt16Col, shape=(3,) | Same as nbelowmeanbystd, but usingshape=(3,) only nbestobs epochal detections usedto compute relative photometry | 
