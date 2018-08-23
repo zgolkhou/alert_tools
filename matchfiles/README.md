@@ -145,8 +145,8 @@ Column Name | Data Type | Description |
 | stetsonk | Float32Col | Stetson-K statistic; proportional to the kurtosis of the magnitude distribution over nobs | 
 | uncalibmeanmag | Float32Col | Mean of uncalibrated mags | 
 | vonneumannratio | Float32Col | The von Neumann Ratio statistic overnobs; measure of epoch-to-epoch variability |
-| weightedmagrms | Float32Col | [mag] Root Mean Square magnitudeover nobs using inverse-variance weighting. |
-| weightedmeanmag | Float32Col | [mag] Inverse-variance weighted meanmagnitude over nobs | 
+| weightedmagrms | Float32Col | [mag] Root Mean Square magnitude over nobs using inverse-variance weighting. |
+| weightedmeanmag | Float32Col | [mag] Inverse-variance weighted mean magnitude over nobs | 
 | x | Float64Col | cos(RA)*cos(Dec) | 
 | y | Float64Col | sin(RA)*cos(Dec) | 
 | z | Float64Col | cos(RA) |
