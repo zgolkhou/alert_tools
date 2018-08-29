@@ -29,7 +29,7 @@ Merging notebooks in a browser:
 
 ![web-merge](docs/source/images/nbmerge-web.png)
 
-## Installation
+### Installation
 
 Install nbdime with pip:
 
