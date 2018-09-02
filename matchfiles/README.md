@@ -1,6 +1,7 @@
 **[Exposures Table](#exposures-table)** ||
 **[Sources Table](#sources-table)** ||
 **[Sourcedata Table](#sourcedata-table)** ||
+**[Transients Table](#transients-table)** ||
 
 
 
@@ -192,7 +193,7 @@ Column Name | Data Type | Description |
 
 ---
 
-### TRANSIENTS TABLE
+### Transients Table
 
 Each row in the transients table corresponds to an Object that did not appear in the reference catalogthat seeded the matchfile. The columns are the same as for the sources table.
 
