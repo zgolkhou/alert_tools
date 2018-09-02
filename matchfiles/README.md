@@ -77,7 +77,7 @@ Column Name | Data Type | Description |
 
 ---
 
-### SOURCES TABLE
+### Sources Table
 Each row in the sources table corresponds to an Object that appeared in the reference catalog that seeded the matchfile. Most of the columns are light curve statistics computed on the time series data in the source data table. Note that several columns contain multidimensional arrays.
 The x, y, z, and matched columns are indexed with pytables defaults (medium index).
 
