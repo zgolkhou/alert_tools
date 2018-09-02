@@ -2,8 +2,7 @@
 **[Sources Table](#sources-table)** ||
 **[Sourcedata Table](#sourcedata-table)** ||
 **[Transients Table](#transients-table)** ||
-
-
+**[Transientdata Table](#transientdata-table)**
 
 ```
 source: The ZTF Science Data System (ZSDS)
@@ -199,6 +198,6 @@ Each row in the transients table corresponds to an Object that did not appear in
 
 ---
 
-### TRANSIENTDATA TABLE
+### Transientdata Table
 
 The sourcedata table contains one row for each observation of an Object in the transients table. Thetime series photometry is stored here. The columns are the same as for the sourcedata table.
