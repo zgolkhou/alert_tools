@@ -1,3 +1,8 @@
+**[Exposures Table](#exposures-table)** ||
+**[Sources Table](#sources-table)** ||
+
+
+
 ```
 source: The ZTF Science Data System (ZSDS)
         Pipelines, Definitions, Data Products & Access (Version 3.2, July 3, 2018)
@@ -40,7 +45,7 @@ Five tables are attached to the match group:
 
 ---
 
-### EXPOSURES TABLE
+### Exposures Table
 
 - The exposures table contains one row per exposure.
 - The expid column is indexed with default pytables values.
