@@ -131,7 +131,7 @@ Column Name | Data Type | Description |
 | nconsecabovemeanbystd | UInt16Col, shape=(3,) | Number of consecutive lightcurveshape=(3,) points that are [1, 3, 5] standarddeviations above the mean magnitude |
 | nconsecbelowmeanbystd | UInt16Col, shape=(3,) | Number of consecutive lightcurve shape=(3,) points that are [1, 3, 5] standarddeviations below the mean magnitude | 
 | nconsecfrommeanbystd | UInt16Col, shape=(3,) | Total number of consecutiveshape=(3,) lightcurve points that are [1, 3, 5]standard deviations either above orbelow the mean magnitude |
-| ngoodobs | UInt16Col | The number of epochal detections that were not flagged, masked, norassociated with bad pixels during thesource extraction process |
+| ngoodobs | UInt16Col | The number of epochal detections that were not flagged, masked, nor associated with bad pixels during thesource extraction process |
 | nmedianbufferrange | UInt16Col | Number of points more than 20% ofthe lightcurve amplitude from the weighted mean 0 magnitude |
 | nobs | UInt16Col | Total number of epochal detections (observation epochs) in the lightcurve for this object |
 | npairposslope | UInt16Col | Number of positive slopes between all consecutive pairwise lightcurve points (mag[i+1] brighter than mag[i]) |
