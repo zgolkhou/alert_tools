@@ -128,7 +128,7 @@ Column Name | Data Type | Description |
 | nabovemeanbystd | UInt16Col, shape=(3,) | Number of lightcurve points that areshape=(3,) [1, 3, 5] standard deviations above themean magnitude over nobs |
 | nbelowmeanbystd | UInt16Col, shape=(3,) | Number of lightcurve points that areshape=(3,) [1, 3, 5] standard deviations below themean magnitude over |
 | nobsnbestobs | UInt16Col | Number of "clean" epochal detections used to compute relative photometric corrections across all observationepochs (= a subset of ngoodobs) |
-| nconsecabovemeanbystd | UInt16Col, shape=(3,) | Number of consecutive lightcurveshape=(3,) points that are [1, 3, 5] standarddeviations above the mean magnitude |
+| nconsecabovemeanbystd | UInt16Col, shape=(3,) | Number of consecutive lightcurve shape=(3,) points that are [1, 3, 5] standarddeviations above the mean magnitude |
 | nconsecbelowmeanbystd | UInt16Col, shape=(3,) | Number of consecutive lightcurve shape=(3,) points that are [1, 3, 5] standarddeviations below the mean magnitude | 
 | nconsecfrommeanbystd | UInt16Col, shape=(3,) | Total number of consecutiveshape=(3,) lightcurve points that are [1, 3, 5]standard deviations either above orbelow the mean magnitude |
 | ngoodobs | UInt16Col | The number of epochal detections that were not flagged, masked, nor associated with bad pixels during thesource extraction process |
