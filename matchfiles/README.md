@@ -88,7 +88,7 @@ Column Name | Data Type | Description |
 | bestastrometricrms | Float64Col | Same as astrometricrms, but usin gonly nbestobs epochal detections used to compute relative photometry|
 | bestchisq | Float32Col | Same as chisq, but using only nbestobs epochal detections used to compute relative photometry |
 | bestcon | Float32Col | Same as con, but using only nbestobs epochal detections used to compute relative photometry |
-| bestlineartrend | Float32Col | Same as lineartrend, but using only nbestobs epochal detections used tocompute relative photometry |
+| bestlineartrend | Float32Col | Same as lineartrend, but using only nbestobs epochal detections used to compute relative photometry |
 | bestmagrms | Float32Col | Same as lineartrend, but using only nbestobs epochal detections used to compute relative photometry |
 | bestmaxmag | Float32Col | Same as maxmag, but using only nbestobs epochal detections used to compute relative photometry | 
 | bestmaxslope | Float32Col | Same as maxslope, but using only nbestobs epochal detections used to compute relative photometry |
