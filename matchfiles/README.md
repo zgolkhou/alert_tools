@@ -99,8 +99,8 @@ Column Name | Data Type | Description |
 | bestnabovemeanbystd| UInt16Col, shape=(3,)| Same as nabovemeanbystd, but usingshape=(3,) only nbestobs epochal detections usedto compute relative photometry | 
 | bestnbelowmeanbystd | UInt16Col, shape=(3,) | Same as nbelowmeanbystd, but usingshape=(3,) only nbestobs epochal detections usedto compute relative photometry | 
 | bestnconsecabovemeanbystd | UInt16Col, shape=(3,) | Same as nconsecabovemeanbystd, but shape=(3,) using only nbestobs epochal detectionsused to compute relative photometry. |
-| bestnconsecbelowmeanbystd | UInt16Col, shape=(3,) | Same as nconsecbelowmeanbystd, but shape=(3,) using only nbestobs epochal detectionsused to compute relative photometry |
-| bestnconsecfrommeanbystd | UInt16Col, shape=(3,) | Same as nconsecfrommeanbystd, but shape=(3,) using only nbestobs epochal detectionsused to compute relative photometry |
+| bestnconsecbelowmeanbystd | UInt16Col, shape=(3,) | Same as nconsecbelowmeanbystd, but shape=(3,) using only nbestobs epochal detections used to compute relative photometry |
+| bestnconsecfrommeanbystd | UInt16Col, shape=(3,) | Same as nconsecfrommeanbystd, but shape=(3,) using only nbestobs epochal detections used to compute relative photometry |
 | bestnmedianbufferrange | UInt16Col | Same as nmedianbufferrange, but using only nbestobs epochal detections used to compute relative photometry | 
 | bestnpairposslope | UInt16Col | Same as npairposslope, but using only nbestobs epochal detections used to compute relative photometry | 
 | bestpercentiles | Float32Col, shape=(12,) | Same as percentiles, but using only shape=(12,) nbestobs epochal detections used tocompute relative photometry | 
