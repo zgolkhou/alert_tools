@@ -96,8 +96,8 @@ Column Name | Data Type | Description |
 | bestmedianabsdev | Float32Col | Same as medianabsdev, but using only nbestobs epochal detections used to compute relative photometry |
 | bestmedianmag | Float32Col | Same as medianmag, but using only nbestobs epochal detections used to compute relative photometry |
 | bestminmag | Float32Col | Same as minmag, but using only nbestobs epochal detections used to compute relative photometry |
-| bestnabovemeanbystd| UInt16Col, shape=(3,)| Same as nabovemeanbystd, but usingshape=(3,) only nbestobs epochal detections usedto compute relative photometry | 
-| bestnbelowmeanbystd | UInt16Col, shape=(3,) | Same as nbelowmeanbystd, but usingshape=(3,) only nbestobs epochal detections usedto compute relative photometry | 
+| bestnabovemeanbystd| UInt16Col, shape=(3,)| Same as nabovemeanbystd, but usingshape=(3,) only nbestobs epochal detections used to compute relative photometry | 
+| bestnbelowmeanbystd | UInt16Col, shape=(3,) | Same as nbelowmeanbystd, but usingshape=(3,) only nbestobs epochal detections used to compute relative photometry | 
 | bestnconsecabovemeanbystd | UInt16Col, shape=(3,) | Same as nconsecabovemeanbystd, but shape=(3,) using only nbestobs epochal detections used to compute relative photometry. |
 | bestnconsecbelowmeanbystd | UInt16Col, shape=(3,) | Same as nconsecbelowmeanbystd, but shape=(3,) using only nbestobs epochal detections used to compute relative photometry |
 | bestnconsecfrommeanbystd | UInt16Col, shape=(3,) | Same as nconsecfrommeanbystd, but shape=(3,) using only nbestobs epochal detections used to compute relative photometry |
