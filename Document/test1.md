@@ -91,4 +91,3 @@ We encourage you to ask questions on the [mailing list](https://groups.google.co
 - [Documentation for nbdime](https://nbdime.readthedocs.io/en/latest/) | [PDF (latest)](https://media.readthedocs.org/pdf/nbdime/latest/nbdime.pdf)
 
 - [Documentation for Project Jupyter](https://jupyter.readthedocs.io/en/latest/index.html) | [PDF](https://media.readthedocs.org/pdf/jupyter/latest/jupyter.pdf)
-- [Project Jupyter website](https://jupyter.org)
