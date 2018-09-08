@@ -86,5 +86,3 @@ All code is licensed under the terms of the revised BSD license.
 We encourage you to ask questions on the [mailing list](https://groups.google.com/forum/#!forum/jupyter).
 
 ## Resources
-
-- [Reporting Issues](https://github.com/jupyter/nbdime/issues)
