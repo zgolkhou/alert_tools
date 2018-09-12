@@ -169,7 +169,7 @@ Column Name | Data Type | Description |
 | chi | Float32Col | Chi-squared |
 | dec | Float64Col, | Declination (deg) |
 | expid | Int32Col | Exposure ID (corresponds to exposures table) | 
-| hjd | Float64Col| Heliocentric Julian Date (computed from mjd andthe mean ra and dec of the input catalog) |
+| hjd | Float64Col| Heliocentric Julian Date (computed from mjd and the mean ra and dec of the input catalog) |
 | mag | Float32Col | Magnitude calibrated with relative photometry |
 | magerr | Float32Col | Uncertainty in calibrated magnitude |
 | matchid | Int32Col | Match ID corresponding to entries in sources |
