@@ -161,7 +161,7 @@ Column Name | Data Type | Description |
 
 ### Sourcedata Table
 
-The sourcedata table contains one row for each observation of an Object in the sources table. Thetime series photometry is stored here.The matchid column is indexed fully so that the table may be sorted by this column. The programid column is indexed with default values.
+The sourcedata table contains one row for each observation of an Object in the sources table. The time series photometry is stored here.The matchid column is indexed fully so that the table may be sorted by this column. The programid column is indexed with default values.
 
 Column Name | Data Type | Description |
 |:--------|:-------|:--------|
