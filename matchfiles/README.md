@@ -85,7 +85,7 @@ The x, y, z, and matched columns are indexed with pytables defaults (medium inde
 Column Name | Data Type | Description |
 |:--------|:-------|:--------|
 | astrometricrms | Float64Col | [degrees] Root Mean Squared deviation in epochal positions relative to the object's ra,dec; effectively theroot-summed mean squared deviations along the ra and dec axes |
-| bestastrometricrms | Float64Col | Same as astrometricrms, but usin gonly nbestobs epochal detections used to compute relative photometry|
+| bestastrometricrms | Float64Col | Same as astrometricrms, but usin g only nbestobs epochal detections used to compute relative photometry|
 | bestchisq | Float32Col | Same as chisq, but using only nbestobs epochal detections used to compute relative photometry |
 | bestcon | Float32Col | Same as con, but using only nbestobs epochal detections used to compute relative photometry |
 | bestlineartrend | Float32Col | Same as lineartrend, but using only nbestobs epochal detections used to compute relative photometry |
