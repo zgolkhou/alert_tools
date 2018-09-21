@@ -80,7 +80,3 @@ We use a shared copyright model that enables all contributors to maintain the
 copyright on their contributions.
 
 All code is licensed under the terms of the revised BSD license.
-
-## Getting help
-
-We encourage you to ask questions on the [mailing list](https://groups.google.com/forum/#!forum/jupyter).
