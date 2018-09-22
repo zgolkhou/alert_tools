@@ -73,6 +73,3 @@ To run Javascript tests locally, enter: `npm test`
 Install the [codecov browser extension](https://github.com/codecov/browser-extension#codecov-extension) to view test coverage in the source browser on github.
 
 See [testing](https://nbdime.readthedocs.io/en/latest/testing.html) documentation for additional detail.
-
-## License
-
