@@ -76,5 +76,3 @@ See [testing](https://nbdime.readthedocs.io/en/latest/testing.html) documentatio
 
 ## License
 
-We use a shared copyright model that enables all contributors to maintain the
-copyright on their contributions.
