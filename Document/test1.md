@@ -67,6 +67,3 @@ Install the test requirements:
     pip install nbdime[test]
 
 To run Python tests locally, enter on the command line: `pytest`
-
-To run Javascript tests locally, enter: `npm test`
-
