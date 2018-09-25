@@ -61,5 +61,3 @@ See [installation](https://nbdime.readthedocs.io/en/latest/installing.html#insta
 a dev install for woking on the browser script code.
 
 ## Testing
-
-Install the test requirements:
