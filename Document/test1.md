@@ -70,4 +70,3 @@ To run Python tests locally, enter on the command line: `pytest`
 
 To run Javascript tests locally, enter: `npm test`
 
-Install the [codecov browser extension](https://github.com/codecov/browser-extension#codecov-extension) to view test coverage in the source browser on github.
