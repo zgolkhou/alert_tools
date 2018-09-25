@@ -63,5 +63,3 @@ a dev install for woking on the browser script code.
 ## Testing
 
 Install the test requirements:
-
-    pip install nbdime[test]
