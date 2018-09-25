@@ -65,5 +65,3 @@ a dev install for woking on the browser script code.
 Install the test requirements:
 
     pip install nbdime[test]
-
-To run Python tests locally, enter on the command line: `pytest`
