@@ -56,5 +56,3 @@ For a **development install**, enter on the command line:
 ```bash
 pip install -e git+https://github.com/jupyter/nbdime#egg=nbdime
 ```
-
-See [installation](https://nbdime.readthedocs.io/en/latest/installing.html#installing-latest-development-version)
