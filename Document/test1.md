@@ -58,4 +58,3 @@ pip install -e git+https://github.com/jupyter/nbdime#egg=nbdime
 ```
 
 See [installation](https://nbdime.readthedocs.io/en/latest/installing.html#installing-latest-development-version) documentation for additional detail, particularly related to performing
-a dev install for woking on the browser script code.
