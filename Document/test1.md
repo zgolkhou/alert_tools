@@ -49,4 +49,4 @@ If you would like to contribute to the project, please read our [contributor doc
 
 ## Development Install
 
-To install a development version of nbdime, you will need [npm installed](https://nodejs.org/en/download/) and available
+To install a development version of nbdime, you will need [npm installed](https://nodejs.org/en/download/)
