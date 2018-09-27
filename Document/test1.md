@@ -48,5 +48,3 @@ See also description and discussion in the [Jupyter Enhancement Proposal](https:
 If you would like to contribute to the project, please read our [contributor documentation](http://jupyter.readthedocs.io/en/latest/contributor/content-contributor.html) and the [`CONTRIBUTING.md`](CONTRIBUTING.md).
 
 ## Development Install
-
-To install a development version of nbdime, you will need [npm installed](https://nodejs.org/en/download/)
