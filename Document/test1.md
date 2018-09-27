@@ -53,6 +53,4 @@ To install a development version of nbdime, you will need [npm installed](https:
 
 For a **development install**, enter on the command line:
 
-```bash
-pip install -e git+https://github.com/jupyter/nbdime#egg=nbdime
-```
+bash
