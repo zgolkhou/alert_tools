@@ -46,5 +46,3 @@ See also description and discussion in the [Jupyter Enhancement Proposal](https:
 ## Contributing
 
 If you would like to contribute to the project, please read our [contributor documentation](http://jupyter.readthedocs.io/en/latest/contributor/content-contributor.html) and the [`CONTRIBUTING.md`](CONTRIBUTING.md).
-
-## Development Install
