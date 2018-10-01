@@ -42,5 +42,3 @@ See [the installation docs](https://nbdime.readthedocs.io/en/latest/installing.h
 See the latest documentation at https://nbdime.readthedocs.io.
 
 See also description and discussion in the [Jupyter Enhancement Proposal](https://github.com/jupyter/enhancement-proposals/pull/8).
-
-## Contributing
