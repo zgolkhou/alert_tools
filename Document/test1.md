@@ -38,5 +38,3 @@ Install nbdime with pip:
 See [the installation docs](https://nbdime.readthedocs.io/en/latest/installing.html) for more installation details and development installation instructions.
 
 ## Documentation
-
-See the latest documentation at https://nbdime.readthedocs.io.
