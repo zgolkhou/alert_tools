@@ -28,5 +28,3 @@ Diffing notebooks in the terminal:
 Merging notebooks in a browser:
 
 ![web-merge](docs/source/images/nbmerge-web.png)
-
-### Installation
