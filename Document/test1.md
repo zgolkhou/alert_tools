@@ -32,5 +32,3 @@ Merging notebooks in a browser:
 ### Installation
 
 Install nbdime with pip:
-
-    pip install nbdime
