@@ -24,5 +24,3 @@
 Diffing notebooks in the terminal:
 
 ![terminal-diff](docs/source/images/nbdiff-terminal.png)
-
-Merging notebooks in a browser:
