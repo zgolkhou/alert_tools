@@ -22,5 +22,3 @@
 - `nbshow` present a single notebook in a terminal-friendly way
 
 Diffing notebooks in the terminal:
-
-![terminal-diff](docs/source/images/nbdiff-terminal.png)
