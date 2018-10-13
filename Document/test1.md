@@ -17,4 +17,3 @@
 
 - `nbdiff` compare notebooks in a terminal-friendly way
 - `nbmerge` three-way merge of notebooks with automatic conflict resolution
-- `nbdiff-web` shows you a rich rendered diff of notebooks
