@@ -16,4 +16,3 @@
 `nbdime` provides tools for diffing and merging of [Jupyter Notebooks](https://jupyter-notebook.readthedocs.io).
 
 - `nbdiff` compare notebooks in a terminal-friendly way
-- `nbmerge` three-way merge of notebooks with automatic conflict resolution
