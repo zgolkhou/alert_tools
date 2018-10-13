@@ -20,5 +20,3 @@
 - `nbdiff-web` shows you a rich rendered diff of notebooks
 - `nbmerge-web` gives you a web-based three-way merge tool for notebooks
 - `nbshow` present a single notebook in a terminal-friendly way
-
-Diffing notebooks in the terminal:
