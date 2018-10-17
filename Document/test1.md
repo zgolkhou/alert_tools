@@ -13,4 +13,3 @@
 [![Documentation Status](https://readthedocs.org/projects/nbdime/badge/?version=latest)](http://nbdime.readthedocs.io/en/latest/?badge=latest)
 [![Google Group](https://img.shields.io/badge/-Google%20Group-lightgrey.svg)](https://groups.google.com/forum/#!forum/jupyter)
 
-`nbdime` provides tools for diffing and merging of [Jupyter Notebooks](https://jupyter-notebook.readthedocs.io).
