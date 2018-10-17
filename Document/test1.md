@@ -11,4 +11,3 @@
 [![Build Status](https://travis-ci.org/jupyter/nbdime.svg?branch=master)](https://travis-ci.org/jupyter/nbdime)
 [![codecov.io](https://codecov.io/github/jupyter/nbdime/coverage.svg?branch=master)](https://codecov.io/github/jupyter/nbdime?branch=master)
 [![Documentation Status](https://readthedocs.org/projects/nbdime/badge/?version=latest)](http://nbdime.readthedocs.io/en/latest/?badge=latest)
-[![Google Group](https://img.shields.io/badge/-Google%20Group-lightgrey.svg)](https://groups.google.com/forum/#!forum/jupyter)
