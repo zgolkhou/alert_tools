@@ -9,4 +9,3 @@
 # [nbdime](https://github.com/jupyter/nbdime) Jupyter Notebook Diff and Merge tools
 
 [![Build Status](https://travis-ci.org/jupyter/nbdime.svg?branch=master)](https://travis-ci.org/jupyter/nbdime)
-[![codecov.io](https://codecov.io/github/jupyter/nbdime/coverage.svg?branch=master)](https://codecov.io/github/jupyter/nbdime?branch=master)
