@@ -2,5 +2,3 @@
 **[Documentation](#documentation)** |
 **[Contributing](#contributing)** |
 **[Development Install](#development-install)** |
-**[Testing](#testing)** |
-
