@@ -1,2 +1,1 @@
 **[Installation](#installation)** |
-**[Documentation](#documentation)** |
