@@ -117,3 +117,51 @@ Source for the CESIUM Features: http://cesium-ml.org/docs/feature_table.html
 | weighted_average | Arithmetic mean of observed values, weighted by measurement errors. |
 
 ---
+### CESIUM CADENCE
+
+| Cadence/Error	 | Description |
+|:--------|:-------|
+| all_times_nhist_numpeaks |	Number of peaks (local maxima) in histogram of all possible delta_t’s.|
+| all_times_nhist_peak1_bin |	Return the (bin) index of the ith largest peak. Peaks is a list of tuples (i, x[i]) of peak indices i and values x[i], sorted in decreasing order by peak value.|
+| all_times_nhist_peak2_bin |	Return the (bin) index of the ith largest peak. Peaks is a list of tuples (i, x[i]) of peak indices i and values x[i], sorted in decreasing order by peak value. |
+| all_times_nhist_peak3_bin | Return the (bin) index of the ith largest peak. Peaks is a list of tuples (i, x[i]) of peak indices i and values x[i], sorted in decreasing order by peak value. |
+| all_times_nhist_peak4_bin	| Return the (bin) index of the ith largest peak. Peaks is a list of tuples (i, x[i]) of peak indices i and values x[i], sorted in decreasing order by peak value. |
+| all_times_nhist_peak_1_to_2 |	Compute the ratio of the values of the ith and jth largest peaks. Peaks is a list of tuples (i, x[i]) of peak indices i and values x[i], sorted in decreasing order by peak value. |
+| all_times_nhist_peak_1_to_3	| Compute the ratio of the values of the ith and jth largest peaks. Peaks is a list of tuples (i, x[i]) of peak indices i and values x[i], sorted in decreasing order by peak value. |
+| all_times_nhist_peak_1_to_4	| Compute the ratio of the values of the ith and jth largest peaks. Peaks is a list of tuples (i, x[i]) of peak indices i and values x[i], sorted in decreasing order by peak value. |
+| all_times_nhist_peak_2_to_3	| Compute the ratio of the values of the ith and jth largest peaks. Peaks is a list of tuples (i, x[i]) of peak indices i and values x[i], sorted in decreasing order by peak value. |
+| all_times_nhist_peak_2_to_4	| Compute the ratio of the values of the ith and jth largest peaks. Peaks is a list of tuples (i, x[i]) of peak indices i and values x[i], sorted in decreasing order by peak value. |
+| all_times_nhist_peak_3_to_4	| Compute the ratio of the values of the ith and jth largest peaks. Peaks is a list of tuples (i, x[i]) of peak indices i and values x[i], sorted in decreasing order by peak value.| 
+| all_times_nhist_peak_val |Peak value in histogram of all possible delta_t’s. |
+| avg_double_to_single_step | Mean value of ratios (t[i+2] - t[i]) / (t[i+2] - t[i+1]). |
+| avg_err	| Mean of the error estimates. |
+| avgt | Mean of the time values. |
+| cad_probs_1	| Given the observed distribution of time lags cads, compute the probability that the next observation occurs within time minutes of an arbitrary epoch. |
+| cad_probs_10	| Given the observed distribution of time lags cads, compute the probability that the next observation occurs within time minutes of an arbitrary epoch. |
+| cad_probs_20 | Given the observed distribution of time lags cads, compute the probability that the next observation occurs within time minutes of an arbitrary epoch. |
+| cad_probs_30 |	Given the observed distribution of time lags cads, compute the probability that the next observation occurs within time minutes of an arbitrary epoch. |
+| cad_probs_40 | Given the observed distribution of time lags cads, compute the probability that the next observation occurs within time minutes of an arbitrary epoch. |
+| cad_probs_50 |	Given the observed distribution of time lags cads, compute the probability that the next observation occurs within time minutes of an arbitrary epoch. |
+| cad_probs_100 |	Given the observed distribution of time lags cads, compute the probability that the next observation occurs within time minutes of an arbitrary epoch. |
+| cad_probs_500 |	Given the observed distribution of time lags cads, compute the probability that the next observation occurs within time minutes of an arbitrary epoch. |
+| cad_probs_1000 |	Given the observed distribution of time lags cads, compute the probability that the next observation occurs within time minutes of an arbitrary epoch. |
+| cad_probs_5000 |	Given the observed distribution of time lags cads, compute the probability that the next observation occurs within time minutes of an arbitrary epoch. |
+| cad_probs_10000 |	Given the observed distribution of time lags cads, compute the probability that the next observation occurs within time minutes of an arbitrary epoch. |
+| cad_probs_50000 |	Given the observed distribution of time lags cads, compute the probability that the next observation occurs within time minutes of an arbitrary epoch. |
+| cad_probs_100000 |	Given the observed distribution of time lags cads, compute the probability that the next observation occurs within time minutes of an arbitrary epoch. |
+cad_probs_500000 |	Given the observed distribution of time lags cads, compute the probability that the next observation occurs within time minutes of an arbitrary epoch. |
+cad_probs_1000000 |	Given the observed distribution of time lags cads, compute the probability that the next observation occurs within time minutes of an arbitrary epoch. |
+cad_probs_5000000 |	Given the observed distribution of time lags cads, compute the probability that the next observation occurs within time minutes of an arbitrary epoch. |
+cad_probs_10000000 |	Given the observed distribution of time lags cads, compute the probability that the next observation occurs within time minutes of an arbitrary epoch. |
+| cads_avg | Mean value of cads (discrete difference between times).
+| cads_med | Median value of cads (discrete difference between times).
+| cads_std |	Standard deviation of cads (discrete difference between times).
+| mean |	Mean of observed values.
+| med_double_to_single_step |	Median value of ratios (t[i+2] - t[i]) / (t[i+2] - t[i+1]).
+| med_err |	Median of error estimates.
+| n_epochs | Total number of observed values.
+| std_double_to_single_step |	Standard deviation of ratios (t[i+2] - t[i]) / (t[i+2] - t[i+1]).
+| std_err |	Standard deviation of the error estimates.
+| total_time | Absolute difference between max and min of time values.
+
+---
