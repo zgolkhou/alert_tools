@@ -50,3 +50,40 @@ Source for the CESIUM Features: http://cesium-ml.org/docs/feature_table.html
 | dc_sigmag | Calculated magnitude uncertainty of the source in science image: 'dc_sigflux' / 'dc_flux' * 1.0857 |
 
 ---
+
+### ASSASN VARIABILITY
+
+| ASSASN Variability Features | Description |
+|:--------|:-------|
+| ASAS-SN_Name | ASASSN Name |
+| Other_Names | Other Names |
+| LCID | ASSASN light curve ID |
+| Type | EW, SR, RRAB, EA, M, EB, RRC, ROT, HADS, DCEP, VAR, L, YSO, UG, ... (please check "The ASAS-SN Catalog of Variable Stars II: Uniform Classification of 412,000 Known Variables " (https://arxiv.org/abs/1809.07329) |
+| Mean_VMag | Mean of V-band magnitudes |
+| assasn_amplitude | ASSASN's derived amplitude based on V-band light curve |
+| Period | ASSASN's derived period based on V-band light curve |
+| Url | URL address to data source | 
+| Reference | The ASAS-SN Catalog of Variable Stars: I or II |
+| Dist | Probabilistic distance estimates (in pc) from Bailer-Jones et al. (2018) |
+| Parallax | Gaia DR2 parallax |
+| Parallax_Error | Gaia DR2 parallax error |
+| Gmag | Absolute Gaia DR2 G-band magnitude |
+| Bpmag | Gaia DR2 BP-band magnitude |
+| Rpmag | Gaia DR2 RP-band magnitude |
+| Jmag | 2MASS J-band magnitude |
+| Hmag | 2MASS H-band magnitude |
+| Kmag | 2MASS K-band magnitude |
+| W1mag | WISE W1 magnitude |
+| W2mag | WISE W2 magnitude |
+| W3mag | WISE W3 magnitude |
+| W4mag | WISE W4 magnitude |
+| BP-RR | Gaia DR2 G_BP - G_PR color |
+| J-K | 2MASS J - Ks color |
+| W1-W2 | WISE W1 - W2 color |
+| W3-W4 | WISE W3 - W4 color |
+| Sllk_Statistic | String Length Lafler Kinman (SLLK) statistic |
+| RF_Regression_Score | Regression score of the implemented random-forest Model by ASSASN |
+| Classification_Probability | Probability of the assigned type/class |
+| Epoch_HJD |  |
+
+---
