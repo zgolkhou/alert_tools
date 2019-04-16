@@ -165,3 +165,55 @@ cad_probs_10000000 |	Given the observed distribution of time lags cads, compute 
 | total_time | Absolute difference between max and min of time values.
 
 ---
+
+### CESIUM LOMB-SCARGLE
+
+| Lomb-Scargle (Periodic)	| Description |
+|:--------|:-------|
+| fold2P_slope_10percentile |	Get alphath percentile of slopes of period-folded model. |
+| fold2P_slope_90percentile |	Get alphath percentile of slopes of period-folded model. |
+| freq1_amplitude1 |	Get the amplitude of the jth harmonic of the ith frequency from a fitted Lomb-Scargle model. |
+| freq1_amplitude2 |	Get the amplitude of the jth harmonic of the ith frequency from a fitted Lomb-Scargle model. |
+| freq1_amplitude3 |	Get the amplitude of the jth harmonic of the ith frequency from a fitted Lomb-Scargle model. |
+| freq1_amplitude4 |	Get the amplitude of the jth harmonic of the ith frequency from a fitted Lomb-Scargle model. |
+| freq1_freq |	Get the ith frequency from a fitted Lomb-Scargle model. |
+| freq1_lambda |	Get the regularization parameter of a fitted Lomb-Scargle model. |
+| freq1_rel_phase2 |	Get the relative phase of the jth harmonic of the ith frequency from a fitted Lomb-Scargle model. |
+| freq1_rel_phase3 |	Get the relative phase of the jth harmonic of the ith frequency from a fitted Lomb-Scargle model. |
+| freq1_rel_phase4 |	Get the relative phase of the jth harmonic of the ith frequency from a fitted Lomb-Scargle model. |
+| freq1_signif |	Get the significance (in sigmas) of the first frequency from a fitted Lomb-Scargle model. |
+| freq2_amplitude1 |	Get the amplitude of the jth harmonic of the ith frequency from a fitted Lomb-Scargle model. |
+| freq2_amplitude2 |	Get the amplitude of the jth harmonic of the ith frequency from a fitted Lomb-Scargle model. |
+| freq2_amplitude3 |	Get the amplitude of the jth harmonic of the ith frequency from a fitted Lomb-Scargle model. |
+| freq2_amplitude4 |	Get the amplitude of the jth harmonic of the ith frequency from a fitted Lomb-Scargle model. |
+| freq2_freq |	Get the ith frequency from a fitted Lomb-Scargle model. |
+| freq2_rel_phase2 |	Get the relative phase of the jth harmonic of the ith frequency from a fitted Lomb-Scargle model. |
+| freq2_rel_phase3 |	Get the relative phase of the jth harmonic of the ith frequency from a fitted Lomb-Scargle model. |
+| freq2_rel_phase4 |	Get the relative phase of the jth harmonic of the ith frequency from a fitted Lomb-Scargle model. |
+| freq3_amplitude1 | 	Get the amplitude of the jth harmonic of the ith frequency from a fitted Lomb-Scargle model. |
+| freq3_amplitude2 |	Get the amplitude of the jth harmonic of the ith frequency from a fitted Lomb-Scargle model. |
+| freq3_amplitude3 |	Get the amplitude of the jth harmonic of the ith frequency from a fitted Lomb-Scargle model. |
+| freq3_amplitude4 |	Get the amplitude of the jth harmonic of the ith frequency from a fitted Lomb-Scargle model. |
+| freq3_freq |	Get the ith frequency from a fitted Lomb-Scargle model. |
+| freq3_rel_phase2 |	Get the relative phase of the jth harmonic of the ith frequency from a fitted Lomb-Scargle model. |
+| freq3_rel_phase3 |	Get the relative phase of the jth harmonic of the ith frequency from a fitted Lomb-Scargle model. |
+| freq3_rel_phase4 |	Get the relative phase of the jth harmonic of the ith frequency from a fitted Lomb-Scargle model. |
+| freq_amplitude_ratio_21 |	Get the ratio of the amplitudes of the first harmonic for the ith and first frequencies from a fitted Lomb-Scargle model. |
+| freq_amplitude_ratio_31 |	Get the ratio of the amplitudes of the first harmonic for the ith and first frequencies from a fitted Lomb-Scargle model. |
+| freq_frequency_ratio_21 |	Get the ratio of the ith and first frequencies from a fitted Lomb-Scargle model. |
+| freq_frequency_ratio_31 |	Get the ratio of the ith and first frequencies from a fitted Lomb-Scargle model. |
+| freq_model_max_delta_mags |	Largest value minus second largest value of fitted Lomb Scargle model. |
+| freq_model_min_delta_mags |	Second smallest value minus smallest value of fitted Lomb Scargle model. |
+| freq_model_phi1_phi2 |	Ratio of distances between the second minimum and first maximum, and the second minimum and second maximum, of the fitted Lomb-Scargle model. |
+| freq_n_alias |	Here we check for “1-day” aliases in ASAS / Deboss sources. |
+| freq_signif_ratio_21 |	Get the ratio of the significances (in sigmas) of the ith and first frequencies from a fitted Lomb-Scargle model. |
+| freq_signif_ratio_31 |	Get the ratio of the significances (in sigmas) of the ith and first frequencies from a fitted Lomb-Scargle model. |
+| freq_varrat |	Get the fraction of the variance explained by the first frequency of a fitted Lomb-Scargle model. |
+| freq_y_offset |	Get the y-intercept of a fitted Lomb-Scargle model. |
+| linear_trend |	Get the linear trend of a fitted Lomb-Scargle model. |
+| medperc90_2p_p |	Get ratio of 90th percentiles of residuals for data folded by twice the estimated period and the estimated period, respectively. |
+| p2p_scatter_2praw |	Get ratio of variability (sum of squared differences of consecutive values) of folded and unfolded models. |
+| p2p_scatter_over_mad |	Get ratio of variability of folded and unfolded models. |
+| p2p_scatter_pfold_over_mad |	Get ratio of median of period-folded data over median absolute deviation of observed values. |
+| p2p_ssqr_diff_over_var | Get sum of squared differences of consecutive values as a fraction of the variance of the data. |
+| scatter_res_raw |	From arXiv 1101_2406v1 Dubath 20110112 paper. |
