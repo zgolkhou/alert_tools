@@ -87,3 +87,33 @@ Source for the CESIUM Features: http://cesium-ml.org/docs/feature_table.html
 | Epoch_HJD |  |
 
 ---
+
+### CESIUM GENERAL
+
+| General	 | Description |
+|:--------|:-------|
+| amplitude |	Half the difference between the maximum and minimum magnitude. |
+| flux_percentile_ratio_mid20 |	A ratio of ((50+x) flux percentile - (50-x) flux percentile) / (95 flux percentile - 5 flux percentile), where x = percentile_range/2. |
+|flux_percentile_ratio_mid35 |	A ratio of ((50+x) flux percentile - (50-x) flux percentile) / (95 flux percentile - 5 flux percentile), where x = percentile_range/2. |
+| flux_percentile_ratio_mid50 |	A ratio of ((50+x) flux percentile - (50-x) flux percentile) / (95 flux percentile - 5 flux percentile), where x = percentile_range/2. |
+| flux_percentile_ratio_mid65 |	A ratio of ((50+x) flux percentile - (50-x) flux percentile) / (95 flux percentile - 5 flux percentile), where x = percentile_range/2. |
+| flux_percentile_ratio_mid80 |	A ratio of ((50+x) flux percentile - (50-x) flux percentile) / (95 flux percentile - 5 flux percentile), where x = percentile_range/2. |
+| max_slope |	Compute the largest rate of change in the observed data. |
+| maximum |	Maximum observed value. |
+| median | Median of observed values. |
+| median_absolute_deviation |	Median absolute deviation (from the median) of the observed values. |
+| minimum |	Minimum observed value. |
+| percent_amplitude |	Returns the largest distance from the median value, measured as a percentage of the median. |
+| percent_beyond_1_std |	Percentage of values more than 1 std. dev. from the weighted average. |
+| percent_close_to_median	| Percentage of values within window_frac*(max(x)-min(x)) of median. |
+| percent_difference_flux_percentile |	Difference between the 95th and 5th percentiles of the data, expressed as a percentage of the median value. See Eyer (2005) arXiv:astro-ph/0511458v1, Evans & Belokurov (2005) (there the 98th and 2nd percentiles are used). |
+| period_fast |	Fits a simple sinuosidal model |
+| qso_log_chi2_qsonu |	Natural log of goodness of fit of qso-model given fixed parameters. |
+| qso_log_chi2nuNULL_chi2nu	| Natural log of expected chi2/nu for non-qso variable. |
+| skew	| Skewness of a dataset. Approximately 0 for Gaussian data. |
+| std	| Standard deviation of observed values. |
+| stetson_j	| Robust covariance statistic between pairs of observations x,y whose uncertainties are dx,dy. If y is not given, calculates a robust variance for x. |
+| stetson_k	| A robust kurtosis statistic. |
+| weighted_average | Arithmetic mean of observed values, weighted by measurement errors. |
+
+---
