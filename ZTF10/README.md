@@ -5,7 +5,7 @@
 **[CESIUM LOMB-SCARGLE](#cesium-lomb-scargle)** 
 
 
-#### ZTF10: all sources (grouped by pbjectId) in the ZTF Alert Database with nobs >= 10.
+#### ZTF10: all sources (grouped by objectId) in the ZTF Alert Database with nobs >= 10.
 #### We cross-matched ZTF10 with ASSASN Variablity Catalog using a matching radius of 2.0''.
 
 
