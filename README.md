@@ -18,7 +18,7 @@ collection of tooling for working with the ZTF alert stream
 - [X] Create features
 - [X] update the schema to version 3.0
 - [X] Optimize the code
-- [ ] Add all _Richards_ attributes
+- [X] Add all _Richards_ attributes
 
 ---
 
